@@ -1,6 +1,6 @@
 ---
 name: Portfolio piece 1 
-desc: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+desc: Here are a few pieces of work that I have done during my time at Algonquin college. I don't just make beautiful print and book pieces but I also love making hats!
 banner: banner.jpg
 images:
   - src: Brew_Print_Final.jpg
