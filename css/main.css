@@ -8,6 +8,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+	overflow: hidden;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -19,8 +20,58 @@ html {
     box-sizing: inherit;
 }
 
-.body {
-    margin: 0;
-    padding: 0;
+body {
+	height: 100vh;
+  margin: 0;
+	overflow-y: auto;
+	overflow-x: hidden;
+	-webkit-overflow-scrolling: touch;
+	
+	-webkit-perspective: 1px;
+	perspective: 1px;
 }
 
+img {
+	width: 100%;
+	
+}
+
+.parallax-group {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.back {
+	-webkit-transform: translateZ(-1px) scale(2);
+	transform: translateZ(-1px) scale(2);
+	position: relative;
+	top: calc(((100vh - 84.27vw) / 4) * -2);
+	z-index: 1;
+	display: block;
+	height: 180vh;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: url(../images/parliament.jpg);
+	background-size: cover;
+  background-position: center;
+	
+}
+
+.front {
+	background-color: #ccc;
+	padding: 14em 1em;
+	position: relative;
+	z-index: 2;
+}
+
+h2 {
+	-webkit-transform: translateZ(-2px) scale(2.5);
+	transform: translateZ(-2px) scale(2.5);
+	position: absolute;
+	top: -200px;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	z-index: 3;
+}
