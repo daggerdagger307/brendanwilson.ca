@@ -101,20 +101,69 @@ h1 {
 	z-index: 3;
 }
 
-h2 {
+.branding {
 	position: absolute;
-	width: 100%;
-  text-align: center;
-	z-index: 5;
-}
-
-.buckets {
+	top: 65em;
 	background-color: white;
-	position: relative;
 	z-index: 22;
-	
+	text-align: center;
+	width: 100%;
 }
 
+.brand-buckets {
+	background-color: white;
+	position: absolute;
+	top: 68em;
+	z-index: 22;
+}
+
+.packaging {
+	position: absolute;
+	top: 145em;
+	background-color: white;
+	z-index: 22;
+	text-align: center;
+	width: 100%;
+}
+
+.pack-buckets {
+	background-color: white;
+	position: absolute;
+	top: 148em;
+	z-index: 22;
+}
+
+.artwork {
+	position: absolute;
+	top: 225em;
+	background-color: white;
+	z-index: 22;
+	text-align: center;
+	width: 100%;
+}
+
+.art-buckets {
+	background-color: white;
+	position: absolute;
+	top: 228em;
+	z-index: 22;
+}
+
+.motion {
+	position: absolute;
+	top: 305em;
+	background-color: white;
+	z-index: 22;
+	text-align: center;
+	width: 100%;
+}
+
+.motion-buckets {
+	background-color: white;
+	position: absolute;
+	top: 308em;
+	z-index: 22;
+}
 
 .bucket-1 {
     background-image: url(../images/temp_bucket.jpg);
@@ -154,58 +203,6 @@ h2 {
 		z-index: 20;
 }
 
-.bucket-5 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-}
-
-.bucket-6 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-}
-
-.bucket-7 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-}
-
-.bucket-8 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-}
-
-.bucket-9 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-}
-
-.bucket-10 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
 }
 
 
