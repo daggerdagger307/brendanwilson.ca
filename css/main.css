@@ -108,55 +108,104 @@ h2 {
 	z-index: 5;
 }
 
+.buckets {
+	background-color: white;
+	position: relative;
+	z-index: 22;
+	
+}
+
 
 .bucket-1 {
-    background-image: url(../images/Aztec_3_4.jpg);
+    background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
+		
 }
     
 .bucket-2 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
+		margin: 0 auto;
 }
 
 .bucket-3 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-4 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-5 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-6 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-7 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-8 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-9 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 .bucket-10 {
     background-image: url(../images/temp_bucket.jpg);
     background-size: cover;
+		background-repeat: no-repeat;
+		padding: 8em;
+		position: relative;
+		z-index: 20;
 }
 
 
