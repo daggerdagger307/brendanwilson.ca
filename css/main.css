@@ -203,7 +203,69 @@ h1 {
 		z-index: 20;
 }
 
+.footer {
+    background-color: black;
+    background-size: 100%;
+    background-repeat: no-repeat;
+		position: absolute;
+		top: 385em;
+		z-index: 33;
 }
+
+.footer-nav {
+        text-align: right;
+        padding-top: .8em;
+        padding-right: 2%;
+        margin: 0;
+        list-style-type: none;
+        overflow: hidden;
+        text-decoration: none;
+}
+
+.footer li {
+    margin: 0;
+    display: inline-block; 
+ }
+
+.copy {
+	 text-align: center;
+     padding-top: .8em;
+     padding-right: 2%;
+     margin: 0;
+     list-style-type: none;
+     overflow: hidden;
+     text-decoration: none;
+}
+
+.instagram {
+    width: 3em;
+    margin: 0;  
+	padding-top: .5em;
+}
+
+.twitter {
+    width: 3em; 
+    margin: 0;
+	padding-top: .5em;
+}
+
+.facebook {
+    width: 3em;
+    margin: 0; 
+	padding-top: .5em;
+}
+
+.nav {
+    margin: 0;
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+}
+
+
 
 
 
