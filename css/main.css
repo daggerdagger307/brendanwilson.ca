@@ -90,9 +90,9 @@ img {
   background-position: center;
 }
 
-h2 {
-	-webkit-transform: translateZ(-2px) scale(2.5);
-	transform: translateZ(-2px) scale(2.5);
+h1 {
+	-webkit-transform: translateZ(-4px) scale(4.5);
+	transform: translateZ(-4px) scale(4.5);
 	position: absolute;
 	top: -200px;
 	width: 100%;
@@ -100,3 +100,89 @@ h2 {
 	color: #fff;
 	z-index: 3;
 }
+
+h2 {
+	position: absolute;
+	width: 100%;
+  text-align: center;
+	z-index: 5;
+}
+
+.buckets {
+	background-color: none;
+}
+
+.bucket-1 {
+    background-image: url(../images/Aztec_3_4.jpg);
+    background-size: cover;
+
+}
+    
+.bucket-2 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-3 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-4 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-5 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-6 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-7 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-8 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-9 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+.bucket-10 {
+    background-image: url(../images/temp_bucket.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
