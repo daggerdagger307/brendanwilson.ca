@@ -26,6 +26,7 @@ body {
 	overflow-y: auto;
 	overflow-x: hidden;
 	-webkit-overflow-scrolling: touch;
+	overflow-scrolling: touch;
 	
 	-webkit-perspective: 1px;
 	perspective: 1px;
@@ -101,9 +102,14 @@ h1 {
 	z-index: 3;
 }
 
+.bucket-wrap {
+	background-color: red;
+	margin: -8em;
+
+}
+
 .branding {
-	position: absolute;
-	top: 65em;
+	position: relative;
 	background-color: white;
 	z-index: 22;
 	text-align: center;
@@ -112,14 +118,12 @@ h1 {
 
 .brand-buckets {
 	background-color: white;
-	position: absolute;
-	top: 68em;
+	position: relative;
 	z-index: 22;
 }
 
 .packaging {
-	position: absolute;
-	top: 145em;
+	position: relative;
 	background-color: white;
 	z-index: 22;
 	text-align: center;
@@ -128,14 +132,12 @@ h1 {
 
 .pack-buckets {
 	background-color: white;
-	position: absolute;
-	top: 148em;
+	position: relative;
 	z-index: 22;
 }
 
 .artwork {
-	position: absolute;
-	top: 225em;
+	position: relative;
 	background-color: white;
 	z-index: 22;
 	text-align: center;
@@ -144,14 +146,12 @@ h1 {
 
 .art-buckets {
 	background-color: white;
-	position: absolute;
-	top: 228em;
+	position: relative;
 	z-index: 22;
 }
 
 .motion {
-	position: absolute;
-	top: 305em;
+	position: relative;
 	background-color: white;
 	z-index: 22;
 	text-align: center;
@@ -160,19 +160,20 @@ h1 {
 
 .motion-buckets {
 	background-color: white;
-	position: absolute;
-	top: 308em;
+	position: relative;
 	z-index: 22;
 }
 
 .bucket-1 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-		
+	background-image: url(../images/Wilson_Brendan_Loop_D_Loop.gif);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
 }
     
 .bucket-2 {
@@ -207,9 +208,10 @@ h1 {
     background-color: black;
     background-size: 100%;
     background-repeat: no-repeat;
-		position: absolute;
-		top: 385em;
+		position: relative;
+		
 		z-index: 33;
+	width: 100%;
 }
 
 .footer-nav {
@@ -225,7 +227,8 @@ h1 {
 .footer li {
     margin: 0;
     display: inline-block; 
-	padding-bottom: 2.5em;
+		padding-top: 1em;
+		padding-bottom: 2.5em;
  }
 
 .copy {
