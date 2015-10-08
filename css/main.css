@@ -32,10 +32,66 @@ body {
 	perspective: 1px;
 }
 
-img {
-	width: 100%;
+header {
+	position: relative;
+	z-index: 44;
+	text-align: center;
+	padding: 3em 0 1em;
+	background-color: grey;
+}
+
+.nav {
+    margin: 0;
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+		display: none;
+}
+
+.nav-label {
+	cursor: pointer;
+	display: inline-block;
+	width: 40px;
+	position: absolute;
+	right: 1em;
+	top: 1em;
 	
 }
+
+.nav-label img {
+	display: block;
+	width: 100%;
+}
+
+.nav a {
+	display: block;
+	padding: 0.5em;
+	text-decoration: none;
+	color: #000;
+}
+
+.nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.nav-check {
+	position: absolute;
+	top: -3em;
+	background-color: black;
+}
+
+.nav-check:checked ~ .nav {
+	display: block;
+}
+
+img {
+	width: 100%;
+}
+
 
 .parallax-group {
 	-webkit-transform-style: preserve-3d;
@@ -103,14 +159,12 @@ h1 {
 }
 
 .bucket-wrap {
-	background-color: red;
-	margin: -8em;
-
+	margin: -18em;
 }
 
 .branding {
+	
 	position: relative;
-	background-color: white;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
@@ -165,7 +219,7 @@ h1 {
 }
 
 .bucket-1 {
-	background-image: url(../images/Wilson_Brendan_Loop_D_Loop.gif);
+	background-image: url(../images/temp_bucket.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
@@ -177,31 +231,38 @@ h1 {
 }
     
 .bucket-2 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
-		margin: 0 auto;
+ 	background-image: url(../images/temp_bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
 }
 
 .bucket-3 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
+ 	background-image: url(../images/temp_bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
 }
-
 .bucket-4 {
-    background-image: url(../images/temp_bucket.jpg);
-    background-size: cover;
-		background-repeat: no-repeat;
-		padding: 8em;
-		position: relative;
-		z-index: 20;
+ 	background-image: url(../images/temp_bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
 }
 
 .footer {
@@ -260,7 +321,7 @@ h1 {
 		padding-top: .5em;
 }
 
-.nav {
+.nav-b {
     margin: 0;
     color: #fff;
     list-style-type: none;
@@ -271,7 +332,39 @@ h1 {
 }
 
 
+@media only screen and (min-width: 38em) {
 
+h2 {
+	margin: 0;
+}
+	
+.branding {
+	background-color: white;
+	padding-top: 2em;
+	}
+.bucket-wrap {
+	margin: -15em;
+}
+
+	
+}
+
+@media only screen and (min-width: 60em) {
+
+.branding {
+		padding-top: 4em;
+	}
+
+}
+
+@media only screen and (min-width: 70em) {
+	
+.branding {
+		padding-top: 6em;
+	
+	}
+	
+}
 
 
 
