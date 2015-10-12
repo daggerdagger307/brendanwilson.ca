@@ -232,8 +232,149 @@ h2 {
 	padding: 0;
 }
 
-.bucket-1 {
-	background-image: url(../images/temp_bucket.jpg);
+.steam-whistle {
+	background-image: url(../images/steam-whistle-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+    
+.propaganda {
+ 	background-image: url(../images/propaganda-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.mario {
+ 	background-image: url(../images/mario-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+.minus-one {
+ 	background-image: url(../images/minus-one-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.lexar {
+	background-image: url(../images/lexar-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+    
+.offthedome {
+ 	background-image: url(../images/offthedome-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.cirque {
+ 	background-image: url(../images/cirque-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+.streets {
+ 	background-image: url(../images/the-streets-wear.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.frankenstein {
+	background-image: url(../images/frankenstein.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+    
+.krool {
+ 	background-image: url(../images/krool-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.immaculate {
+ 	background-image: url(../images/immaculate-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+.obiwan {
+ 	background-image: url(../images/obiwan-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.cap-trap {
+	background-image: url(../images/Wilson_Brendan_Loop_D_Loop.gif);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
@@ -245,7 +386,7 @@ h2 {
 }
     
 .bucket-2 {
- 	background-image: url(../images/temp_bucket.jpg);
+ 	background-image: url(../images/propaganda-bucket.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
@@ -257,7 +398,7 @@ h2 {
 }
 
 .bucket-3 {
- 	background-image: url(../images/temp_bucket.jpg);
+ 	background-image: url(../images/mario-bucket.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
@@ -268,7 +409,7 @@ h2 {
 	text-decoration-line: none;	
 }
 .bucket-4 {
- 	background-image: url(../images/temp_bucket.jpg);
+ 	background-image: url(../images/minus-one-bucket.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
