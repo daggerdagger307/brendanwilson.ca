@@ -32,21 +32,12 @@ body {
 	perspective: 1px;
 }
 
-.rtt {
-    position: fixed;
-    bottom: 1em;
-    left: 2em;
-    width: 5em;
-		transition: all 450ms ease-in;
-		z-index: 55;
-}
-
 header {
 	position: relative;
 	z-index: 44;
 	text-align: center;
 	padding: 3em 0 1em;
-	background-color: grey;
+	background-color: #afdde8 ;
 }
 
 .nav {
@@ -80,18 +71,17 @@ header {
 	display: block;
 	padding: 0.5em;
 	text-decoration: none;
-	color: #000;
+	color: #fff;
 }
 
 .nav a:hover {
-	background-color: #333;
+	background-color: #08273d;
 	color: #fff;
 }
 
 .nav-check {
 	position: absolute;
 	top: -3em;
-	background-color: grey;
 	
 }
 
@@ -121,7 +111,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-image: url(../images/parliament.jpg);
+	background-image: url(../images/parliament_building.svg);
 	background-size: cover;
   background-position: center;
 	
@@ -137,6 +127,7 @@ img {
 	height: 30vh;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 5em;
 	text-align: center;
 	background-image: url(../images/Second_Building-01-01.png);
 	background-size: cover;
@@ -154,9 +145,10 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-image: url(../images/white_building-01-01.png);
+	background-image: url(../images/Second_Building-01-01.png);
 	background-size: cover;
   background-position: center;
+	
 }
 
 h1 {
@@ -170,22 +162,29 @@ h1 {
 	z-index: 3;
 }
 
-.bucket-wrap {
-	margin: -18em;
+h2 {
+	margin: 0;
+	
 }
 
+
 .branding {
-	margin-top: 10em;
 	position: relative;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
+	background-image: url(../images/white_building-01-01.png);
+	atransform: scale(2);
+	background-size: cover;
+	padding-top: 8em;
+	margin-top: -30em;
 }
 
 .brand-buckets {
 	background-color: white;
 	position: relative;
 	z-index: 22;
+	padding: 0;
 }
 
 .packaging {
@@ -200,6 +199,7 @@ h1 {
 	background-color: white;
 	position: relative;
 	z-index: 22;
+	padding: 0;
 }
 
 .artwork {
@@ -214,6 +214,7 @@ h1 {
 	background-color: white;
 	position: relative;
 	z-index: 22;
+	padding: 0;
 }
 
 .motion {
@@ -228,6 +229,7 @@ h1 {
 	background-color: white;
 	position: relative;
 	z-index: 22;
+	padding: 0;
 }
 
 .bucket-1 {
@@ -345,42 +347,62 @@ h1 {
 
 
 @media only screen and (min-width: 38em) {
-
-h2 {
-	margin: 0;
-}
-	
-.branding {
-	background-color: white;
-	padding-top: 2em;
-	}
-.bucket-wrap {
-	margin: -15em;
-}
-
-	
+		
 }
 
 @media only screen and (min-width: 60em) {
+	
+h2 {
+	padding-top: 2em;
+}
 
 .branding {
-		padding-top: 4em;
+	margin-top: -15em;
 	}
 	
-.rtt {
-	display: none;
+.brand-buckets {
+	padding: 0 10%;
 }
 	
+.pack-buckets {
+	padding: 0 10%;
+}
 
+.art-buckets {
+	padding: 0 10%;
+}
+
+.motion-buckets {
+	padding: 0 10%;
+}
 
 }
 
 @media only screen and (min-width: 70em) {
 	
-.branding {
-		padding-top: 6em;
+h2 {
+	padding-top: 4em;
+}
 	
+.branding {
+	margin-top: -15em;	
 	}
+	
+.brand-buckets {
+	padding: 0 15%;
+}
+	
+.pack-buckets {
+	padding: 0 15%;
+}
+
+.art-buckets {
+	padding: 0 15%;
+}
+
+.motion-buckets {
+	padding: 0 15%;
+}
 	
 }
 
