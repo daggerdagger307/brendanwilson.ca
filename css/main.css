@@ -32,6 +32,28 @@ body {
 	perspective: 1px;
 }
 
+.rtt {
+  bottom: 1em;
+  left: 2em;
+  width: 2em;
+	height: auto;
+  margin: 0 auto;
+}
+
+.rtt-hover :hover  {
+  transform: scale(1.5);
+	transition: all 450ms ease-in;
+	z-index: 100;
+	
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+
 header {
 	position: relative;
 	z-index: 44;
@@ -111,7 +133,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	background-image: url(../images/parliament_building.svg);
+	background-image: url(../images/parliament_building-01.svg);
 	background-size: cover;
   background-position: center;
 	
@@ -167,14 +189,12 @@ h2 {
 	
 }
 
-
 .branding {
 	position: relative;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 	background-image: url(../images/white_building-01-01.png);
-	atransform: scale(2);
 	background-size: cover;
 	padding-top: 8em;
 	margin-top: -30em;
@@ -185,6 +205,7 @@ h2 {
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
 }
 
 .packaging {
@@ -200,6 +221,7 @@ h2 {
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
 }
 
 .artwork {
@@ -215,6 +237,7 @@ h2 {
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
 }
 
 .motion {
@@ -230,11 +253,27 @@ h2 {
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
+}
+
+
+.hover :hover {
+	display: block;
+  transform: scale(1.1);
+	transition: all 250ms ease-out;
+	z-index: 100;
+	
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
 }
 
 .steam-whistle {
-	background-image: url(../images/steam-whistle-bucket.jpg);
-	background-size: contain;
+	background-image: url(../images/steam-whistle-bucket-full.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 100%;
 	position: relative;
@@ -243,7 +282,7 @@ h2 {
 	text-align: center;
 	text-decoration-line: none;	
 }
-    
+   
 .propaganda {
  	background-image: url(../images/propaganda-bucket.jpg);
 	background-size: contain;
@@ -267,6 +306,7 @@ h2 {
 	text-align: center;
 	text-decoration-line: none;	
 }
+
 .minus-one {
  	background-image: url(../images/minus-one-bucket.jpg);
 	background-size: contain;
@@ -290,7 +330,7 @@ h2 {
 	text-align: center;
 	text-decoration-line: none;	
 }
-    
+   
 .offthedome {
  	background-image: url(../images/offthedome-bucket.jpg);
 	background-size: contain;
@@ -314,6 +354,7 @@ h2 {
 	text-align: center;
 	text-decoration-line: none;	
 }
+
 .streets {
  	background-image: url(../images/the-streets-wear.jpg);
 	background-size: contain;
@@ -361,6 +402,7 @@ h2 {
 	text-align: center;
 	text-decoration-line: none;	
 }
+
 .obiwan {
  	background-image: url(../images/obiwan-bucket.jpg);
 	background-size: contain;
@@ -421,7 +463,7 @@ h2 {
 }
 
 .footer {
-  background-color: black;
+  background-color: #08273d;
   background-size: 100%;
   background-repeat: repeat;
 	position: relative;	
@@ -520,6 +562,7 @@ h2 {
 }
 
 @media only screen and (min-width: 70em) {
+
 	
 h2 {
 	padding-top: 4em;
@@ -528,6 +571,10 @@ h2 {
 .branding {
 	margin-top: -15em;	
 	}
+	
+.front {
+	margin-top: 12em;
+}
 	
 .brand-buckets {
 	padding: 0 15%;
