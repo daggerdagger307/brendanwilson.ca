@@ -42,10 +42,12 @@ body {
 
 .rtt-hover :hover  {
   transform: scale(1.5);
-	transition: all 450ms ease-in;
+	-moz-transition: all 450ms ease-in;
+  -o-transition: all 450ms ease-in;
+  -webkit-transition: all 450ms ease-in;
+  transition: all 450ms ease-in;
 	z-index: 100;
 	
-
 	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
@@ -260,9 +262,11 @@ h2 {
 .hover :hover {
 	display: block;
   transform: scale(1.1);
-	transition: all 250ms ease-out;
+	-moz-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 	z-index: 100;
-	
 
 	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
@@ -534,6 +538,20 @@ h2 {
 }
 
 @media only screen and (min-width: 60em) {
+	
+.nav li {
+	display: inline-block;
+}
+	
+.nav {
+	height: 100%;
+	margin-bottom: 1em;
+	margin-top: -1em;
+}
+	
+.nav-label {
+	display: none;
+}
 	
 h2 {
 	padding-top: 2em;
