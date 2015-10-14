@@ -33,6 +33,7 @@ body {
 }
 
 .rtt {
+	padding-top: 2em;
   bottom: 1em;
   left: 2em;
   width: 2em;
@@ -99,8 +100,8 @@ header {
 }
 
 .nav a:hover {
-	background-color: #08273d;
-	color: #fff;
+	color: #08273d;
+	transition: all 350ms ease-in-out;
 }
 
 .nav-check {
@@ -179,7 +180,7 @@ h1 {
 	-webkit-transform: translateZ(-4px) scale(4.5);
 	transform: translateZ(-4px) scale(4.5);
 	position: absolute;
-	top: -200px;
+	top: -20em;
 	width: 100%;
 	text-align: center;
 	color: #fff;
@@ -188,7 +189,6 @@ h1 {
 
 h2 {
 	margin: 0;
-	
 }
 
 .branding {
@@ -265,8 +265,9 @@ h2 {
 	-moz-transition: all 250ms ease-in-out;
   -o-transition: all 250ms ease-in-out;
   -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-in-out;
+  transition: all 250ms ease-out;
 	z-index: 100;
+	background-image: url(../images/cirque-bucket.jpg);
 
 	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
@@ -285,6 +286,48 @@ h2 {
 	margin: auto 0;
 	text-align: center;
 	text-decoration-line: none;	
+}
+
+.steam-1 {
+	background-image: url(../images/steam-whistle-bucket-full.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration-line: none;
+	align-content: center;
+	width: 50em;
+}
+
+.steam-2 {
+	background-image: url(../images/steam-2.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration-line: none;
+	align-content: center;
+	width: 50em;
+}
+
+.steam-3 {	
+	background-image: url(../images/steam-3.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: 0 auto;
+	text-align: center;
+	text-decoration-line: none;
+	align-content: center;
+	width: 50em;
 }
    
 .propaganda {
