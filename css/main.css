@@ -199,7 +199,7 @@ img {
 	text-align: center;
 	background-image: url(../images/Second_Building-01-01.png);
 	background-size: cover;
-  background-position: center;
+    background-position: center;
 	
 }
 
@@ -234,6 +234,8 @@ h2 {
 }
 
 .lightbox-container {
+    background-image: url(../images/brendan-billboard.jpg);
+    background-size: cover;
     position: absolute;
     left: 20px;
     right: 20px;
@@ -268,6 +270,28 @@ h2 {
 	top: 3em;
 }
 
+.about {
+    background-color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	position: absolute;	
+	z-index: 33;
+	width: 100%;
+	margin: 0 auto;
+    bottom: 0;
+    padding-top: 2em;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+.about-text {
+    overflow: hidden;
+    max-width: 40em;
+    margin: 0 auto;
+    position: relative;
+    left: -5em;
+}
+
 .lightbox-2 {
     position: fixed;
     left: 0;
@@ -292,8 +316,6 @@ h2 {
     z-index: 2001;
     border-radius: 16px;
 }
-
-
 
 .about-check-2 {
 	position: absolute;
@@ -322,11 +344,11 @@ h2 {
     background-color: #fff;
     background-size: 100%;
     background-repeat: no-repeat;
-	position: relative;	
+	position: absolute;	
 	z-index: 33;
 	width: 100%;
 	margin: 0 auto;
-    top: 444px;
+    bottom: 0;
     padding-top: 2em;
     border-bottom-right-radius: 16px;
     border-bottom-left-radius: 16px;
@@ -475,7 +497,7 @@ h2 {
 }
 
 .steam-whistle {
-	background-image: url(../images/steam-whistle-bucket-full.jpg);
+	background-image: url(../images/steam-whistle-bucket.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 100%;
