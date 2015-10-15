@@ -113,7 +113,6 @@ header {
 	position: absolute;
 	right: 1em;
 	top: 1em;
-	
 }
 
 .nav-label img {
@@ -135,8 +134,7 @@ header {
 
 .nav-check {
 	position: absolute;
-	top: -3em;
-	
+	top: -3em;	
 }
 
 .nav-check:checked ~ .nav {
@@ -185,7 +183,7 @@ img {
 	text-align: center;
 	background-image: url(../images/Second_Building-01-01.png);
 	background-size: cover;
-  background-position: center;
+    background-position: center;
 }
 
 .white {
@@ -222,6 +220,173 @@ h2 {
 
 .align-left {
     text-align: left;
+}
+
+.lightbox {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    width: 0;
+}
+
+.lightbox-container {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 50px;
+    bottom: 50px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px #000;
+    z-index: 2001;
+    border-radius: 16px;
+}
+
+.about-check {
+	position: absolute;
+	top: -3em;	
+}
+
+.about-check:checked ~ .lightbox {
+	width: 100%;
+	transition: all 350ms ease-in-out;
+}
+
+.about-label {
+	cursor: pointer;
+}
+
+.close-lightbox {
+	cursor: pointer;
+	display: inline-block;
+	width: 30px;
+	position: absolute;
+	right: 3em;
+	top: 3em;
+}
+
+.lightbox-2 {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2000;
+    width: 0;
+}
+
+.lightbox-container-2 {
+    background-image: url(../images/steam-temp.JPG);
+    background-size: cover;
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 50px;
+    bottom: 50px;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px #000;
+    z-index: 2001;
+    border-radius: 16px;
+}
+
+
+
+.about-check-2 {
+	position: absolute;
+	top: -3em;	
+}
+
+.about-check-2:checked ~ .lightbox-2 {
+	width: 100%;
+	transition: all 350ms ease-in-out;
+}
+
+.about-label-2 {
+	cursor: pointer;
+}
+
+.close-lightbox-2 {
+	cursor: pointer;
+	display: inline-block;
+	width: 30px;
+	position: absolute;
+	right: 3em;
+	top: 3em;
+}
+
+.contact {
+    background-color: #fff;
+    background-size: 100%;
+    background-repeat: no-repeat;
+	position: relative;	
+	z-index: 33;
+	width: 100%;
+	margin: 0 auto;
+    top: 444px;
+    padding-top: 2em;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+}
+
+
+.contact-nav {
+    text-align: right;
+    padding-top: .8em;
+    padding-right: 2%;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.contact li {
+    margin: 0;
+    display: inline-block; 
+    padding-top: 1em;
+    padding-bottom: 2.5em;
+ }
+
+.copy-c {
+	text-align: center;
+	padding-top: 2em;
+	padding-right: 2%;
+	margin: 0;
+	list-style-type: none;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+}
+
+.instagram-c {
+    width: 3em;
+    margin: 0;  
+    padding-top: .5em;
+}
+
+.twitter-c {
+    width: 3em; 
+    margin: 0;
+		padding-top: .5em;
+}
+
+.facebook-c {
+    width: 3em;
+    margin: 0; 
+		padding-top: .5em;
+}
+
+.contact-b {
+    margin: 0;
+    color: black;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
 }
 
 .branding {
