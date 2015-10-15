@@ -20,16 +20,45 @@ html {
     box-sizing: inherit;
 }
 
+
 body {
 	height: 100vh;
-  margin: 0;
+    margin: 0;
 	overflow-y: auto;
 	overflow-x: hidden;
+    background-color: #BAE2EF;
 	-webkit-overflow-scrolling: touch;
 	overflow-scrolling: touch;
 	
 	-webkit-perspective: 1px;
 	perspective: 1px;
+}
+
+main {
+    background-color: white;
+} 
+
+.skip-links {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skip-links a {
+    position: absolute;
+    top: -3em;
+    padding: 0;
+    background-color: #788E92;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25em;
+    text-decoration: none;
+}
+
+.skip-links a:focus {
+    position: absolute;
+    top: 0;
+    z-index: 1000;
 }
 
 .rtt {
@@ -62,7 +91,7 @@ header {
 	z-index: 44;
 	text-align: center;
 	padding: 3em 0 1em;
-	background-color: #afdde8 ;
+	background-color: #afdde8;
 }
 
 .nav {
@@ -111,7 +140,7 @@ header {
 }
 
 .nav-check:checked ~ .nav {
-	height: 10em;
+	height: 19em;
 	transition: all 250ms linear;
 }
 
@@ -176,11 +205,11 @@ img {
 	
 }
 
-h1 {
+.wordmark {
 	-webkit-transform: translateZ(-4px) scale(4.5);
 	transform: translateZ(-4px) scale(4.5);
 	position: absolute;
-	top: -20em;
+	top: 50vh;
 	width: 100%;
 	text-align: center;
 	color: #fff;
@@ -189,6 +218,10 @@ h1 {
 
 h2 {
 	margin: 0;
+}
+
+.align-left {
+    text-align: left;
 }
 
 .branding {
@@ -288,46 +321,54 @@ h2 {
 	text-decoration-line: none;	
 }
 
-.steam-1 {
-	background-image: url(../images/steam-whistle-bucket-full.jpg);
-	background-size: contain;
+.billboard-steam {
+   background-image: url(../images/steam-temp.jpg);
+	background-size: cover;
 	background-repeat: no-repeat;
-	padding-top: 100%;
 	position: relative;
 	z-index: 20;
 	margin: 0 auto;
 	text-align: center;
 	text-decoration-line: none;
 	align-content: center;
-	width: 50em;
+    height: 30em;;
 }
 
-.steam-2 {
-	background-image: url(../images/steam-2.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding-top: 100%;
-	position: relative;
-	z-index: 20;
-	margin: 0 auto;
-	text-align: center;
-	text-decoration-line: none;
-	align-content: center;
-	width: 50em;
+.title {
+    color: #fff;
+    text-align: center;
+    padding-top: 10%;
+    font-size: 4rem;
+    
+    -webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
 }
 
-.steam-3 {	
-	background-image: url(../images/steam-3.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding-top: 100%;
-	position: relative;
-	z-index: 20;
-	margin: 0 auto;
+.brief {
 	text-align: center;
-	text-decoration-line: none;
-	align-content: center;
-	width: 50em;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;  
+}
+
+.piece {
+	text-align: center;
+    height: 40em;
+    overflow: hidden;
+    margin: 0 auto;
+    overflow: scroll;
+    border-color: aquamarine;
+    border-width: 2em;
+}
+
+.sketches {	
+	text-align: center;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
 }
    
 .propaganda {
