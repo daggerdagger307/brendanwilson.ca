@@ -253,10 +253,16 @@ h2 {
 	top: -3em;	
 }
 
+.about-check ~ .lightbox {
+	overflow: hidden;
+}
+
+
 .about-check:checked ~ .lightbox {
 	width: 100%;
 	transition: all 350ms ease-in-out;
 }
+
 
 .about-label {
 	cursor: pointer;
@@ -290,7 +296,6 @@ h2 {
     max-width: 40em;
     margin: 0 auto;
     position: relative;
-    left: -5em;
 }
 
 .lightbox-2 {
@@ -481,12 +486,12 @@ h2 {
 
 
 .hover :hover {
-	display: block;
-  transform: scale(1.1);
+    display: block;
+    transform: scale(1.1);
 	-moz-transition: all 250ms ease-in-out;
-  -o-transition: all 250ms ease-in-out;
-  -webkit-transition: all 250ms ease-in-out;
-  transition: all 250ms ease-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 250ms ease-out;
 	z-index: 100;
 	background-image: url(../images/cirque-bucket.jpg);
 
