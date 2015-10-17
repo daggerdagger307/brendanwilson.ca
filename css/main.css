@@ -836,6 +836,11 @@ h2 {
 .nav li {
 	display: inline-block;
 }
+
+.about-text {
+    font-size: 100%;
+    max-width: 60em;
+}
 	
 .nav {
 	height: 100%;
