@@ -64,11 +64,11 @@ main {
 
 .rtt {
 	padding-top: 2em;
-  bottom: 1em;
-  left: 2em;
-  width: 2em;
+    bottom: 1em;
+    left: 2em;
+    width: 2em;
 	height: auto;
-  margin: 0 auto;
+    margin: 0 auto;
 }
 
 .rtt-hover :hover  {
@@ -103,8 +103,11 @@ header {
     overflow: hidden;
     text-decoration: none;
     text-align: center;
-		height: 0;
-		transition: all 250ms linear;
+    height: 0;
+    -moz-transition: all 250ms linear;
+    -o-transition: all 250ms linear;
+    -webkit-transition: all 250ms linear;
+    transition: all 250ms linear;
 }
 
 .nav-label {
@@ -130,6 +133,9 @@ header {
 
 .nav a:hover {
 	color: #08273d;
+    -moz-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
 	transition: all 350ms ease-in-out;
 }
 
@@ -149,11 +155,15 @@ img {
 
 
 .parallax-group {
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
 }
 
 .back {
+    -moz-transform: translateZ(-1px) scale(2);
+    -o-transform: translateZ(-1px) scale(2);
 	-webkit-transform: translateZ(-1px) scale(2);
 	transform: translateZ(-1px) scale(2);
 	position: relative;
@@ -166,11 +176,13 @@ img {
 	text-align: center;
 	background-image: url(../images/parliament_building-01.svg);
 	background-size: cover;
-  background-position: center;
+    background-position: center;
 	
 }
 
 .front {
+    -moz-transform: translateZ(-0.5px) scale(2.5);
+    -o-transform: translateZ(-0.5px) scale(2.5);
 	-webkit-transform: translateZ(-0.5px) scale(2.5);
 	transform: translateZ(-0.5px) scale(2.5);
 	position: relative;
@@ -188,6 +200,8 @@ img {
 }
 
 .white {
+    -moz-transform: translateZ(-0.3px) scale(2.5);
+    -o-transform: translateZ(-0.3px) scale(2.5);
 	-webkit-transform: translateZ(-0.3px) scale(2.5);
 	transform: translateZ(-0.3px) scale(2.5);
 	position: relative;
@@ -205,6 +219,8 @@ img {
 }
 
 .wordmark {
+    -moz-transform: translateZ(-4px) scale(4.5);
+    -o-transform: translateZ(-4px) scale(4.5);
 	-webkit-transform: translateZ(-4px) scale(4.5);
 	transform: translateZ(-4px) scale(4.5);
 	position: absolute;
@@ -399,13 +415,13 @@ h2 {
 .twitter-c {
     width: 3em; 
     margin: 0;
-		padding-top: .5em;
+    padding-top: .5em;
 }
 
 .facebook-c {
     width: 3em;
     margin: 0; 
-		padding-top: .5em;
+    padding-top: .5em;
 }
 
 .contact-b {
@@ -745,30 +761,30 @@ h2 {
 }
 
 .footer {
-  background-color: #08273d;
-  background-size: 100%;
-  background-repeat: repeat;
-	position: relative;	
+    background-color: #08273d;
+    background-size: 100%;
+    background-repeat: repeat;
+    position: relative;	
 	z-index: 33;
 	width: 100%;
 	margin: 0 auto;
 }
 
 .footer-nav {
-        text-align: right;
-        padding-top: .8em;
-        padding-right: 2%;
-        margin: 0;
-        list-style-type: none;
-        overflow: hidden;
-        text-decoration: none;
+    text-align: right;
+    padding-top: .8em;
+    padding-right: 2%;
+    margin: 0;
+    list-style-type: none;
+    overflow: hidden;
+    text-decoration: none;
 }
 
 .footer li {
     margin: 0;
     display: inline-block; 
-		padding-top: 1em;
-		padding-bottom: 2.5em;
+    padding-top: 1em;
+    padding-bottom: 2.5em;
  }
 
 .copy {
@@ -785,19 +801,19 @@ h2 {
 .instagram {
     width: 3em;
     margin: 0;  
-		padding-top: .5em;
+    padding-top: .5em;
 }
 
 .twitter {
     width: 3em; 
     margin: 0;
-		padding-top: .5em;
+    padding-top: .5em;
 }
 
 .facebook {
     width: 3em;
     margin: 0; 
-		padding-top: .5em;
+    padding-top: .5em;
 }
 
 .nav-b {
