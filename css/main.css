@@ -139,6 +139,14 @@ header {
 	transition: all 350ms ease-in-out;
 }
 
+.nav li:hover {
+	color: #08273d;
+    -moz-transition: all 350ms ease-in-out;
+    -o-transition: all 350ms ease-in-out;
+    -webkit-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
 .nav-check {
 	position: absolute;
 	top: -3em;	
@@ -218,17 +226,18 @@ img {
 	
 }
 
-.wordmark {
+.lettermark {
     -moz-transform: translateZ(-4px) scale(4.5);
     -o-transform: translateZ(-4px) scale(4.5);
 	-webkit-transform: translateZ(-4px) scale(4.5);
 	transform: translateZ(-4px) scale(4.5);
+    top: calc(((100vh - 84.27vw) / 4) * -2);
 	position: absolute;
-	top: 50vh;
 	width: 100%;
-	text-align: center;
-	color: #fff;
-	z-index: 3;
+	z-index: 3000;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h2 {
@@ -832,6 +841,10 @@ h2 {
 }
 
 @media only screen and (min-width: 60em) {
+    
+.lettermark {
+	width: 50%;
+}
 	
 .nav li {
 	display: inline-block;
