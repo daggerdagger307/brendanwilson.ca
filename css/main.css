@@ -230,11 +230,11 @@ img {
     -o-transform: translateZ(-4px) scale(4.5);
 	-webkit-transform: translateZ(-4px) scale(4.5);
 	transform: translateZ(-4px) scale(4.5);
-    top: calc(((100vh - 84.27vw) / 4) * -2);
+    top: calc(((100vh - 84.27vw) / 4) * 0);
 	position: absolute;
 	width: 100%;
 	z-index: 3000;
-    margin: 0 auto;
+    margin-top: 2em;
     left: 50%;
     transform: translateX(-50%);
 }
