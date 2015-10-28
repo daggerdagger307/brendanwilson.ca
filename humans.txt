@@ -1,0 +1,27 @@
+# humanstxt.org 
+
+# DESIGNER
+
+Brendan Wilson 
+Instagram: @_off_the_dome_
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Big thanks to my Web Development teacher Thomas Bradley for showing me all the magic that web can do. I couldn't have made this site without his experties. 
+
+---
+
+#TECHNOLOGY 
+
+## Software
+
+-Brakets
+-Github
+-Markdown
+
+##Hosting
+
+-WiredTree <https://wiredtree.com>
