@@ -1,75 +1,12 @@
+---
+---
+
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <url>
-        <loc>https://brendanwilson.ca/</loc>
-        <priority>1.0</priority>
-        <changefreq>monthly</changefreq>
-    </url>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/steam.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/propaganda.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/mario.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/minusone.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/lexar.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/offthedome.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/cirque.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/steetswear.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/frankenstein.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/krool.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/immaculate.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/obiwan.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/captrap.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/dagger.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/ontherocks.html/</loc>
-    </urk>
-    
-    <urk>
-        <loc>https://brendanwilson.ca/shadows.html/</loc>
-    </urk>
+    {% for post in site.post %}
+        {% include sitemap-entry.xml entry=post %}
+    {% endfor %}
     
     
 </urlset>
