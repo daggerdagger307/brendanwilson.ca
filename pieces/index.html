@@ -28,11 +28,14 @@ layout: pieces
                         <p class="align-left">{{pieces.meta}}</p>
             {% endif %}
         {% endfor %}
-                        
+         
+        {% for pieces in site.pages %}
+            {% if pieces.type == 'steam' %}
         <div class="swatch-1"></div>
         <div class="swatch-2"></div>
         <div class="swatch-3"></div>
-                    
+         {% endif %}
+        {% endfor %}           
                     </div>
                 </div>
         
