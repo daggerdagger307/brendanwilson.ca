@@ -6,7 +6,7 @@ layout: default
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Steam Whistle T-Shirt Design · Brendan Wilson's Portfolio</title>
+  <title>{% if page.title % }{{page.title}} · {% endif %} Steam Whistle T-Shirt Design · Brendan Wilson's Portfolio</title>
   <meta name="viewport" content="A well crafted tee shirt and poster design for The Steam Whistle Brewing companies annual design contest. width=device-width,initial-scale=1">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Merriweather:400,400italic,700" rel="stylesheet">
     <link href="{{site.baseurl}}/css/grid.css" rel="stylesheet">
@@ -28,7 +28,7 @@ layout: default
 				<label class="nav-label" for="nav-check">
 				<img class="nav-open"src="{{site.baseurl}}/images/icon-nav.svg" alt="Open Navigation"></label>
 				<ul class="nav">
-                    <li class="gutter"><label class="about-label" for="about-check">About Me</label></li>
+                    <li class="gutter"><label class="about-label" for="about-check" rel="me">About Me</label></li>
 					<li class="gutter tera"><a href="{{site.baseurl}}/index.html" rel="home">- Back to the City -</a></li>
                     <li class="gutter"><label class="about-label-2" for="about-check-2">Contact</label></li>
 				</ul>
