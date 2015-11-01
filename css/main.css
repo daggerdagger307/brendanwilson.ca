@@ -8,7 +8,6 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-	overflow: hidden;
 
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
@@ -23,14 +22,6 @@ html {
 body {
 	height: 100vh;
     margin: 0;
-	overflow-y: auto;
-	overflow-x: hidden;
-    background-color: #BAE2EF;
-	-webkit-overflow-scrolling: touch;
-	overflow-scrolling: touch;
-	
-	-webkit-perspective: 1px;
-	perspective: 1px;
 }
 
 main {
@@ -161,23 +152,18 @@ img {
 }
 
 
-.parallax-group {
+/*.parallax-group {
     -moz-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
 	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;
+	transform-style: preserve-3d;*/
 }
 
 .back {
-    -moz-transform: translateZ(-1px) scale(2);
-    -o-transform: translateZ(-1px) scale(2);
-	-webkit-transform: translateZ(-1px) scale(2);
-	transform: translateZ(-1px) scale(2);
 	position: relative;
-	top: calc(((100vh - 84.27vw) / 4) * -2);
 	z-index: 1;
 	display: block;
-	height: 180vh;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
