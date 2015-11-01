@@ -197,11 +197,11 @@ img {
 
 .lettermark {
 	position: absolute;
-	width: 50%;
+	width: 70%;
 	z-index: 3000;
-    top: 8em;
-    margin: 0 auto;
-    text-align: center;
+    top: 5em;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 h2 {
