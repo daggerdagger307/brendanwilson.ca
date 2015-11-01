@@ -168,25 +168,27 @@ img {
 
 .front {
     padding-top: 100%;
-    margin-top: -4em;
+    margin-top: -10em;
 	position: relative;
 	display: block;
 	text-align: center;
 	background-image: url(../images/Second_Building-01-01.png);
-	background-size: cover;
+	background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
 .white {
     padding-top: 100%;
-    margin-top: -4em;
+    margin-top: -16em;
 	position: relative;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	background-image: url(../images/Second_Building-01-01.png);
-	background-size: cover;
+	background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
 	
 }
@@ -432,7 +434,7 @@ h2 {
 	background-image: url(../images/white_building-01-01.png);
 	background-size: cover;
 	padding-top: 8em;
-	margin-top: -5em;
+	margin-top: -10em;
 }
 
 .brand-buckets {
