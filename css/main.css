@@ -170,7 +170,7 @@ img {
 
 .front {
     padding-top: 100%;
-    margin-top: -16em;
+    margin-top: -24em;
 	position: relative;
 	display: block;
 	text-align: center;
@@ -196,10 +196,10 @@ img {
 }
 
 .lettermark {
-	position: absolute;
+	position: relative;
 	width: 70%;
 	z-index: 3000;
-    top: 5em;
+    top: -35em;
     left: 50%;
     transform: translateX(-50%);
 }
