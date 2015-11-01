@@ -20,7 +20,6 @@ html {
 }
 
 body {
-	height: 100vh;
     margin: 0;
 }
 
@@ -152,40 +151,26 @@ img {
 }
 
 
-/*.parallax-group {
-    -moz-transform-style: preserve-3d;
-    -o-transform-style: preserve-3d;
-	-webkit-transform-style: preserve-3d;
-	transform-style: preserve-3d;*/
+.parallax-group {
+    overflow: hidden;
 }
 
 .back {
+    padding-top: 100%;
+    margin: 0 auto;
 	position: relative;
-	z-index: 1;
 	display: block;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 	text-align: center;
 	background-image: url(../images/parliament_building-01.svg);
 	background-size: cover;
     background-position: center;
-	
 }
 
 .front {
-    -moz-transform: translateZ(-0.5px) scale(2.5);
-    -o-transform: translateZ(-0.5px) scale(2.5);
-	-webkit-transform: translateZ(-0.5px) scale(2.5);
-	transform: translateZ(-0.5px) scale(2.5);
+    padding-top: 100%;
+    margin-top: -4em;
 	position: relative;
-	top: calc(((100vh - 84.27vw) / 4) * -2);
-	z-index: 1;
 	display: block;
-	height: 30vh;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 5em;
 	text-align: center;
 	background-image: url(../images/Second_Building-01-01.png);
 	background-size: cover;
@@ -193,15 +178,10 @@ img {
 }
 
 .white {
-    -moz-transform: translateZ(-0.3px) scale(2.5);
-    -o-transform: translateZ(-0.3px) scale(2.5);
-	-webkit-transform: translateZ(-0.3px) scale(2.5);
-	transform: translateZ(-0.3px) scale(2.5);
+    padding-top: 100%;
+    margin-top: -4em;
 	position: relative;
-	top: calc(((100vh - 84.27vw) / 4) * -2);
-	z-index: 1;
 	display: block;
-	height: 30vh;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
@@ -212,15 +192,10 @@ img {
 }
 
 .lettermark {
-    -moz-transform: translateZ(-4px) scale(4.5);
-    -o-transform: translateZ(-4px) scale(4.5);
-	-webkit-transform: translateZ(-4px) scale(4.5);
-	transform: translateZ(-4px) scale(4.5);
-    top: calc(((100vh - 84.27vw) / 4) * 0);
 	position: absolute;
-	width: 100%;
+	width: 70%;
 	z-index: 3000;
-    margin-top: 2em;
+    margin-top: -20em;
     left: 50%;
     transform: translateX(-50%);
 }
@@ -457,7 +432,7 @@ h2 {
 	background-image: url(../images/white_building-01-01.png);
 	background-size: cover;
 	padding-top: 8em;
-	margin-top: -30em;
+	margin-top: -5em;
 }
 
 .brand-buckets {
