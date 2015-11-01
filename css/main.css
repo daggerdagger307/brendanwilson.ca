@@ -161,8 +161,8 @@ img {
 	position: relative;
 	display: block;
 	text-align: center;
-	background-image: url(../images/parliament_building-01.svg);
-	background-size: cover;
+	background-image: url(../images/parliament_moble-01.svg);
+	background-size: cover; 
     background-position: center;
 }
 
@@ -195,11 +195,10 @@ img {
 
 .lettermark {
 	position: absolute;
-	width: 70%;
+	width: 50%;
 	z-index: 3000;
-    margin-top: -20em;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 5em;
+    margin: 0 auto;
 }
 
 h2 {
