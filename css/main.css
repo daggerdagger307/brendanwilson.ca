@@ -156,19 +156,21 @@ img {
 }
 
 .back {
-    padding-top: 100%;
+    padding-top: 180%;
+    top: -5em;
     margin: 0 auto;
 	position: relative;
 	display: block;
 	text-align: center;
 	background-image: url(../images/parliament_moble-01.svg);
-	background-size: cover; 
+	background-size: contain; 
+    background-repeat: no-repeat;
     background-position: center;
 }
 
 .front {
     padding-top: 100%;
-    margin-top: -10em;
+    margin-top: -16em;
 	position: relative;
 	display: block;
 	text-align: center;
@@ -197,8 +199,9 @@ img {
 	position: absolute;
 	width: 50%;
 	z-index: 3000;
-    top: 5em;
+    top: 8em;
     margin: 0 auto;
+    text-align: center;
 }
 
 h2 {
