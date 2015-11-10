@@ -153,9 +153,19 @@ img {
 
 .parallax-group {
     overflow: hidden;
+    padding-top: 180%;
+    top: -10em;
+    margin: 0 auto;
+	position: relative;
+	display: block;
+	text-align: center;
+	background-image: url(../images/parliament_mobile-01.png);
+	background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.back {
+/*.back {
     padding-top: 180%;
     top: -10em;
     margin: 0 auto;
@@ -166,7 +176,7 @@ img {
 	background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
-}
+}*/
 
 /*.front {
     padding-top: 100%;
@@ -196,13 +206,11 @@ img {
 }*/
 
 .lettermark {
-	position: relative;
-	width: 70%;
+	position: absolute;
+	width: 6em;
 	z-index: 3000;
-    top: -65em;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-top: -23em;
+    top: 6.5em;
+ 
 }
 
 h2 {
@@ -433,6 +441,7 @@ h2 {
 	position: relative;
 	z-index: 22;
 	text-align: center;
+    margin-top: -10em;
 	
 }
 
@@ -819,18 +828,29 @@ h2 {
 
 
 @media only screen and (min-width: 38em) {
-		
+    
+.branding {
+    margin-top: -10em;
+}	
+    
 }
 
 @media only screen and (min-width: 60em) {
     
 .parallax-group {
-    padding-bottom: -30em;
-}
-    
-.lettermark {
-	width: 50%;
-}
+    overflow: hidden;
+    padding-top: 120%;
+    top: -10em;
+    margin: 0 auto;
+	position: relative;
+	display: block;
+	text-align: center;
+	background-image: url(../images/parliament_bigger-01.png);
+	background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
 	
 .nav li {
 	display: inline-block;
@@ -854,10 +874,6 @@ h2 {
 h2 {
 	padding-top: 2em;
 }
-
-.branding {
-	margin-top: -15em;
-	}
 	
 .brand-buckets {
 	padding: 0 10%;
@@ -878,20 +894,11 @@ h2 {
 }
 
 @media only screen and (min-width: 70em) {
-    
-.back {
-    top: -35em;
-	background-image: url(../images/parliament_bigger-01.png);
-}
 
 	
 h2 {
 	padding-top: 4em;
 }
-	
-.branding {
-	margin-top: -70em;	
-	}
 	
 .front {
 	margin-top: 12em;
