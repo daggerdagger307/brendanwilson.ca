@@ -81,7 +81,7 @@ header {
 	z-index: 44;
 	text-align: center;
 	padding: 3em 0 1em;
-	background-color: #afdde8;
+	background-color: #acbcbb;
 }
 
 .nav {
@@ -142,7 +142,7 @@ header {
 }
 
 .nav-check:checked ~ .nav {
-	height: 19em;
+	height: 16em;
 	transition: all 250ms linear;
 }
 
@@ -151,9 +151,9 @@ img {
 }
 
 
-/*.parallax-group {
+.parallax-group {
     overflow: hidden;
-}*/
+}
 
 .back {
     padding-top: 180%;
@@ -162,7 +162,7 @@ img {
 	position: relative;
 	display: block;
 	text-align: center;
-	background-image: url(../images/parliament_mobile-01.svg);
+	background-image: url(../images/parliament_mobile-01.png);
 	background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
@@ -433,11 +433,7 @@ h2 {
 	position: relative;
 	z-index: 22;
 	text-align: center;
-	width: 100%;
-	background-image: url(../images/white_building-01-01.png);
-	background-size: cover;
-	padding-top: 8em;
-    min-height: 8em;
+	
 }
 
 .brand-buckets {
@@ -756,7 +752,7 @@ h2 {
 }
 
 .footer {
-    background-color: #08273d;
+    background-color: #acbcbb;
     background-size: 100%;
     background-repeat: repeat;
     position: relative;	
@@ -828,9 +824,9 @@ h2 {
 
 @media only screen and (min-width: 60em) {
     
-.front {
-    border: red;
-    }
+.parallax-group {
+    padding-bottom: -30em;
+}
     
 .lettermark {
 	width: 50%;
@@ -882,6 +878,11 @@ h2 {
 }
 
 @media only screen and (min-width: 70em) {
+    
+.back {
+    top: -35em;
+	background-image: url(../images/parliament_bigger-01.png);
+}
 
 	
 h2 {
@@ -889,7 +890,7 @@ h2 {
 }
 	
 .branding {
-	margin-top: -15em;	
+	margin-top: -70em;	
 	}
 	
 .front {
