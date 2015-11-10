@@ -136,7 +136,7 @@ header {
 	transition: all 350ms ease-in-out;
 }
 
-.nav-check {
+.nav-check, .nav a:focus > .nav{
 	position: absolute;
 	top: -3em;	
 }
@@ -151,26 +151,26 @@ img {
 }
 
 
-.parallax-group {
+/*.parallax-group {
     overflow: hidden;
-}
+}*/
 
 .back {
     padding-top: 180%;
-    top: -5em;
+    top: -10em;
     margin: 0 auto;
 	position: relative;
 	display: block;
 	text-align: center;
-	background-image: url(../images/parliament_moble-01.svg);
+	background-image: url(../images/parliament_mobile-01.svg);
 	background-size: contain; 
     background-repeat: no-repeat;
     background-position: center;
 }
 
-.front {
+/*.front {
     padding-top: 100%;
-    margin-top: -24em;
+    margin-top: -45em;
 	position: relative;
 	display: block;
 	text-align: center;
@@ -182,7 +182,7 @@ img {
 
 .white {
     padding-top: 100%;
-    margin-top: -16em;
+    margin-top: -35em;
 	position: relative;
 	display: block;
 	margin-left: auto;
@@ -193,15 +193,16 @@ img {
     background-repeat: no-repeat;
     background-position: center;
 	
-}
+}*/
 
 .lettermark {
 	position: relative;
 	width: 70%;
 	z-index: 3000;
-    top: -35em;
+    top: -65em;
     left: 50%;
     transform: translateX(-50%);
+    margin-top: -23em;
 }
 
 h2 {
@@ -436,7 +437,7 @@ h2 {
 	background-image: url(../images/white_building-01-01.png);
 	background-size: cover;
 	padding-top: 8em;
-	margin-top: -10em;
+    min-height: 8em;
 }
 
 .brand-buckets {
@@ -826,6 +827,10 @@ h2 {
 }
 
 @media only screen and (min-width: 60em) {
+    
+.front {
+    border: red;
+    }
     
 .lettermark {
 	width: 50%;
