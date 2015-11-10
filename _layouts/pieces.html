@@ -32,9 +32,9 @@ layout: default
 				<label class="nav-label" for="nav-check">
 				<img class="nav-open"src="{{site.baseurl}}/images/icon-nav.svg" alt="Open Navigation"></label>
 				<ul class="nav">
-                    <li class="gutter"><label class="about-label" for="about-check" rel="me">About Me</label></li>
-					<li class="gutter tera"><a href="{{site.baseurl}}/index.html" rel="home">- Back to the City -</a></li>
-                    <li class="gutter"><label class="about-label-2" for="about-check-2">Contact</label></li>
+                    <li class="gutter pad-t pad-b"><label class="about-label" for="about-check" rel="me">About Me</label></li>
+					<li class="gutter tera pad-t pad-b"><a href="{{site.baseurl}}/index.html" rel="home">- Back to the City -</a></li>
+                    <li class="gutter pad-t pad-b"><label class="about-label-2" for="about-check-2">Contact</label></li>
 				</ul>
                 
                 <div class="lightbox" id="about-check">
@@ -76,7 +76,7 @@ Please feel free to contact me, even if you just want to talk widows!</div></div
  <article itemscope itemtype="http://schema.org/VisualArtwork">
 				<main>
 
-				<div class="billboard-steam"><h5 class="title">                           {{page.title}}</h5></div>
+				<div class="billboard"><img itemprop = "image" src="{{site.baseurl}}/images/{{page.banner}}" alt="Steam Whistle Billboard"><h5 class="title">{{page.title}}</h5></div>
 
                     
 
@@ -84,19 +84,14 @@ Please feel free to contact me, even if you just want to talk widows!</div></div
 
                 <div class="portfolio grid">
                                
-                    <div class="piece unit unit-s-1 unit-m-1-2 unit-l-1-2 island"><img itemprop = "image" src="{{site.baseurl}}/images/{{page.pieces.image-1}}" alt="Steam Whistle Poster"></div>
+                    <div class="piece unit unit-s-1 unit-m-1-2 unit-l-1-2 island"><img itemprop = "image" src="{{site.baseurl}}/images/{{page.image-1}}" alt="Steam Whistle Poster"></div>
         
 
                     <div class="brief unit unit-s-1 unit-m-1-2 unit-l-1-2 island">
                         <h3 itemprop="about" class="align-left">Brief:</h3>
         
                         <p class="align-left">{{page.meta}}</p>
-           
-         
-        
-        <div class="swatch-1"></div>
-        <div class="swatch-2"></div>
-        <div class="swatch-3"></div>
+                        <img itemprop = "image" src="{{site.baseurl}}/images/{{page.swatches}}" alt="Steam Whistle Swatches">
                 
                     </div>
                 </div>

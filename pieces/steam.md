@@ -14,11 +14,7 @@ meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel 
 
 type: steam
 
-swatch-1: #2E3192
-
-swatch-2: #00A651
-
-swatch-3: #6D6E71
+swatches: swatches-steam.svg
 
 image-1: steam-whistle-bucket-full.jpg
 
