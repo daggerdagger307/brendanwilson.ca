@@ -160,7 +160,7 @@ img {
 	position: relative;
 	display: block;
 	text-align: center;
-	background-image: url(../images/parliament_mobile-01.png);
+	background-image: url(../images/parliament_building_Mobile.svg);
 	background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
@@ -225,7 +225,7 @@ h2 {
 .lightbox {
     position: fixed;
     left: 0;
-    right: 0;
+    xright: 0;
     top: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
@@ -300,13 +300,14 @@ h2 {
 
 .lightbox-2 {
     position: fixed;
-    left: 0;
+    xleft: 0;
     right: 0;
     top: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 2000;
     width: 0;
+    overflow: hidden;
 }
 
 .lightbox-container-2 {
@@ -386,7 +387,7 @@ h2 {
 	list-style-type: none;
 	overflow: hidden;
 	text-decoration: none;
-	color: black;
+	color: #acbcbb;
 }
 
 .instagram-c {
@@ -409,7 +410,7 @@ h2 {
 
 .contact-b {
     margin: 0;
-    color: black;
+    color: #acbcbb;
     list-style-type: none;
     padding: 0;
     overflow: hidden;
@@ -417,32 +418,11 @@ h2 {
     text-align: center;
 }
 
-.swatch-1 {
-    padding: 4em;
-    background-color: black;
-    margin-right: 17em;
-    margin-left: 17em;
-}
-
-.swatch-2 {
-    padding: 4em;
-    background-color: black;
-    margin-right: 17em;
-    margin-left: 17em;
-}
-
-.swatch-3 {
-    padding: 4em;
-    background-color: black;
-    margin-right: 17em;
-    margin-left: 17em;
-}
-
 .branding {
 	position: relative;
 	z-index: 22;
 	text-align: center;
-    margin-top: -10em;
+    margin-top: 50em;
 	
 }
 
@@ -542,14 +522,20 @@ h2 {
 	text-align: center;
 	text-decoration-line: none;
 	align-content: center;
-    height: 30em;;
+    max-height: 30em;
+    overflow: hidden;
 }
 
 .title {
+    position: absolute;
+    z-index: 30000;
     color: #fff;
-    text-align: center;
-    padding-top: 10%;
+    top: 15%;
     font-size: 4rem;
+    left: 50%;
+    transform:translateX(-50%);
+    margin: none;
+
     
     -webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
@@ -846,7 +832,7 @@ h2 {
 	position: relative;
 	display: block;
 	text-align: center;
-	background-image: url(../images/parliament_bigger-01.png);
+	background-image: url(../images/parliament_bigger.svg);
 	background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
