@@ -533,6 +533,7 @@ h2 {
     top: 15%;
     font-size: 4rem;
     left: 50%;
+    -webkit-transform:translateX(-50%);
     transform:translateX(-50%);
     margin: none;
 
