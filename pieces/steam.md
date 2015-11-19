@@ -4,6 +4,8 @@ layout: pieces
 
 banner: steam-temp.jpg
 
+alt-banner: Steam Whistle t-shirt design.
+
 title: Steam Whistle T-Shirt Design
 
 meta: Entry for tee shirt design contest held by Steam Whistle Brewing co.
@@ -14,12 +16,20 @@ meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel 
 
 type: steam
 
-swatches: swatches-steam.svg
+swatches: swatches-steam.jpg
+
+alt-swatches: Steam Whistle Swatches
 
 image-1: steam-whistle-bucket-full.jpg
 
+alt-main-artwork: Steam Whistle t-shirt design
+
 image-2: steam-2.jpg
 
+alt-tee-1: Soup Can
+
 image-3: steam-3.jpg
+
+alt-tee-2: Bottle Evolution
 
 ---

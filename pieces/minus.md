@@ -2,34 +2,34 @@
 
 layout: pieces
 
-banner: gym-temp.jpg
+banner: minus-temp.jpg
 
-alt-banner: Propaganda Product Photo
+alt-banner: Minus One Gun mock up
 
-title: Propaganda Fitness Branding
+title: Minus One Gun Logo and T-Shirt Design
 
-meta: Branding and Identity for local clothing line.
+meta: Branding package for local start up.
 
-solution: Propaganda Fist 
+solution: Minus One Gun
 
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
 
-type: prop
+type: minus
 
-swatches: swatches-prop.jpg
+swatches: swatches-minus.jpg
 
-alt-swatches: Propaganda Swatches
+alt-swatches: Minus One Gun Swatches
 
-image-1: prop-logo.jpg
+image-1: minus-logo.jpg
 
-alt-main-artwork: Propaganda Logo
+alt-main-artwork: Minus One Gun logo design
 
-image-2: prop-tee.jpg
+image-2: minus-2.jpg
 
-alt-tee-1: Propaganda Logo Tee
+alt-tee-1: Minus One Gun mock up
 
-image-3: prop-tee-2.jpg
+image-3: minus-3.jpg
 
-alt-tee-2: Propaganda Hammer Tee
+alt-tee-2: Minus One Gun mock up
 
 ---

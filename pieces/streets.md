@@ -2,34 +2,34 @@
 
 layout: pieces
 
-banner: gym-temp.jpg
+banner: streets-temp.jpg
 
-alt-banner: Propaganda Product Photo
+alt-banner: The Streets Wear illustration
 
-title: Propaganda Fitness Branding
+title: Hand made Type Booklet
 
-meta: Branding and Identity for local clothing line.
+meta: The Streets Wear Type Booklet
 
-solution: Propaganda Fist 
+solution: The Streets Wear Type Booklet
 
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
 
-type: prop
+type: streets
 
-swatches: swatches-prop.jpg
+swatches: swatches-streets.jpg
 
-alt-swatches: Propaganda Swatches
+alt-swatches: The Streets Wear swatches
 
-image-1: prop-logo.jpg
+image-1: streets-booklet.jpg
 
-alt-main-artwork: Propaganda Logo
+alt-main-artwork: The Streets Wear display
 
-image-2: prop-tee.jpg
+image-2: streets-2.jpg
 
-alt-tee-1: Propaganda Logo Tee
+alt-tee-1: The Streets Wear inside pages
 
-image-3: prop-tee-2.jpg
+image-3: streets-3.jpg
 
-alt-tee-2: Propaganda Hammer Tee
+alt-tee-2: The Streets Wear inside pages
 
 ---

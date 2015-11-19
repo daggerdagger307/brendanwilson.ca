@@ -2,34 +2,34 @@
 
 layout: pieces
 
-banner: gym-temp.jpg
+banner: mario-temp.jpg
 
-alt-banner: Propaganda Product Photo
+alt-banner: Mario Store Front
 
-title: Propaganda Fitness Branding
+title: Mario Master Tailor Branding
 
-meta: Branding and Identity for local clothing line.
+meta: Branding package for local tailor.
 
-solution: Propaganda Fist 
+solution: Mario Master Tailor
 
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
 
-type: prop
+type: mario
 
-swatches: swatches-prop.jpg
+swatches: swatches-mario.jpg
 
-alt-swatches: Propaganda Swatches
+alt-swatches: Mario swatches
 
-image-1: prop-logo.jpg
+image-1: mario-logo.jpg
 
-alt-main-artwork: Propaganda Logo
+alt-main-artwork: Mario logo design
 
-image-2: prop-tee.jpg
+image-2: mario-2.jpg
 
-alt-tee-1: Propaganda Logo Tee
+alt-tee-1: Mario sketches
 
-image-3: prop-tee-2.jpg
+image-3: mario-3.jpg
 
-alt-tee-2: Propaganda Hammer Tee
+alt-tee-2: Mario sketches
 
 ---

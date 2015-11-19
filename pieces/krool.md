@@ -2,34 +2,34 @@
 
 layout: pieces
 
-banner: gym-temp.jpg
+banner: krool-temp.jpg
 
-alt-banner: Propaganda Product Photo
+alt-banner: Krool Poster
 
-title: Propaganda Fitness Branding
+title: Krool Type Poster
 
-meta: Branding and Identity for local clothing line.
+meta: Krool Poster Series
 
-solution: Propaganda Fist 
+solution: Krool Type Poster Series
 
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
 
-type: prop
+type: krool
 
-swatches: swatches-prop.jpg
+swatches: swatches-krool.jpg
 
-alt-swatches: Propaganda Swatches
+alt-swatches: Krool swatches
 
-image-1: prop-logo.jpg
+image-1: krool-poster.jpg
 
-alt-main-artwork: Propaganda Logo
+alt-main-artwork: Krool poster design
 
-image-2: prop-tee.jpg
+image-2: krool-2.jpg
 
-alt-tee-1: Propaganda Logo Tee
+alt-tee-1: Krool poster design
 
-image-3: prop-tee-2.jpg
+image-3: krool-3.jpg
 
-alt-tee-2: Propaganda Hammer Tee
+alt-tee-2: Krool poster design
 
 ---

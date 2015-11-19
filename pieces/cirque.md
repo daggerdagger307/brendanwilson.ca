@@ -2,34 +2,34 @@
 
 layout: pieces
 
-banner: gym-temp.jpg
+banner: cirque-temp.jpg
 
-alt-banner: Propaganda Product Photo
+alt-banner: Cirque Du Soleil annual report
 
-title: Propaganda Fitness Branding
+title: Cirque Du Soleil Annual Report
 
-meta: Branding and Identity for local clothing line.
+meta: Annual report for Cique Du Soleil
 
-solution: Propaganda Fist 
+solution: Cirque Du Soleil Annual Report
 
 meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
 
-type: prop
+type: cirque
 
-swatches: swatches-prop.jpg
+swatches: swatches-cirque.jpg
 
-alt-swatches: Propaganda Swatches
+alt-swatches: Cirque Du Soleil swatches
 
-image-1: prop-logo.jpg
+image-1: cirque-booklet.jpg
 
-alt-main-artwork: Propaganda Logo
+alt-main-artwork: Cirque Du Soleil Annual Report
 
-image-2: prop-tee.jpg
+image-2: cirque-2.jpg
 
-alt-tee-1: Propaganda Logo Tee
+alt-tee-1: Inside Pages
 
-image-3: prop-tee-2.jpg
+image-3: cirque-3.jpg
 
-alt-tee-2: Propaganda Hammer Tee
+alt-tee-2: Display
 
 ---
