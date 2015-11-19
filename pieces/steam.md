@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: steam-temp.jpg
+banner: steam-whistle-bucket-full.jpg
 
 alt-banner: Steam Whistle t-shirt design.
 
