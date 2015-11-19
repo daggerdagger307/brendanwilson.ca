@@ -1,4 +1,4 @@
 markdown: redcarpet
-baseurl: /brendanwilson.ca
+baseurl: ""
 exclude: ['README.md']
 permalink: pretty 
