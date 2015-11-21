@@ -12,11 +12,11 @@ meta: Algonquin College Theatre Poster
 
 solution: Steam Punk Theme Frankenstein Poster
 
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
+meta: The goal of this project is to create a dynamic, creative poster/program cover for the Algonquin College Theatre Company. To learn the power and value of poster design as a communication tool. Making sure that the message is conveyed clearly and appropriately for its intended aucience.
 
 type: frank
 
-swatches: swatches-frank.jpg
+swatches: swatches-frank.svg
 
 alt-swatches: Frankenstein swatches
 

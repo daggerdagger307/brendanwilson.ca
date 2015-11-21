@@ -12,11 +12,11 @@ meta: Low environmental impact package design.
 
 solution: Lexar SD Card
 
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
+meta: To create a package design for a small electronic. The design should reflect the companies branding while opening their market up to new customers. Green packaging is a key factor for the client so the new packaging must be of low impact to the enviroment, not only to make but to either recyle and/or reuse. 
 
 type: lexar
 
-swatches: swatches-lexar.jpg
+swatches: swatches-lexar.svg
 
 alt-swatches: Lexar swatches
 

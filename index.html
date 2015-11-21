@@ -34,7 +34,7 @@ layout: default
 		<div id="top"></div>
 		
 		<header>
-			<nav>
+			<nav role="navigation">
 				<input type="checkbox" class="nav-check" id="nav-check">
                 <input type="checkbox" class="about-check" id="about-check">
                 <input type="checkbox" class="about-check-2" id="about-check-2">
@@ -84,26 +84,20 @@ Please feel free to contact me, even if you just want to talk widows!           
         
             
 	
-		<div class="parallax-group">
+		<div class="parallax-group" role="banner">
 			<div class="back"></div>
 			<div class="lettermark"><img src="images/lettermark.svg" alt="Brendan WIlson Lettermark"></div>
 		</div>
         
-		<main id="main">
+		<main id="main" role="main">
 			<div class="branding pad-t" id="branding">				  <h2>Branding & Identity</h2></div>
 
 		<div class="grid brand-buckets">
 				<div class="brand unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-						<a class="hover" href="{{site.baseurl}}/pieces/steam/"><div class="steam-whistle"></div> </a>
+						<a class="hover-steam" href="{{site.baseurl}}/pieces/steam/"><div class="steam-whistle"></div> </a>
 				</div>
 				<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-					 <a class="hover"href="{{site.baseurl}}/pieces/prop/"> <div class="propaganda"></div> </a>
-				</div>
-				 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-					 <a class="hover" href="{{site.baseurl}}/pieces/mario/"><div class="mario"></div> </a>
-				</div>
-				<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-					 <a class="hover" href="{{site.baseurl}}/pieces/minus/">  <div class="minus-one"></div> </a>
+					 <a class="hover-prop"href="{{site.baseurl}}/pieces/prop/"> <div class="propaganda"></div> </a>
 				</div>
 			<div class="rtt">
 													<a class="rtt-hover"href="#top"><img src="images/arrow.svg" alt="Return to Top"></a>
@@ -114,16 +108,10 @@ Please feel free to contact me, even if you just want to talk widows!           
 
 	<div class="grid pack-buckets">
 			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-					<a class="hover" href="{{site.baseurl}}/pieces/lexar/"><div class="lexar"></div></a>
-			</div>
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/otd/"> <div class="offthedome"></div> </a>
+					<a class="hover-lexar" href="{{site.baseurl}}/pieces/lexar/"><div class="lexar"></div></a>
 			</div>
 			 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/cirque/"><div class="cirque"></div> </a>
-			</div>
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/streets/">  <div class="streets"></div> </a>
+				 <a class="hover-cirque" href="{{site.baseurl}}/pieces/cirque/"><div class="cirque"></div> </a>
 			</div>
 			<div class="rtt">
 													<a class="rtt-hover"href="#top"><img src="images/arrow.svg" alt="Return to Top"></a>
@@ -134,16 +122,10 @@ Please feel free to contact me, even if you just want to talk widows!           
 
 	<div class="grid art-buckets">
 			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-					<a class="hover" href="{{site.baseurl}}/pieces/frank/"><div class="frankenstein"></div></a>
+					<a class="hover-frank" href="{{site.baseurl}}/pieces/frank/"><div class="frankenstein"></div></a>
 			</div>
 			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/krool/"> <div class="krool"></div> </a>
-			</div>
-			 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/mary/"><div class="immaculate"></div> </a>
-			</div>
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/obiwan/">  <div class="obiwan"></div> </a>
+				 <a class="hover-mary" href="{{site.baseurl}}/pieces/mary/"> <div class="immaculate"></div> </a>
 			</div>
 			<div class="rtt">
                         <a class="rtt-hover"href="#top"><img src="images/arrow.svg" alt="Return to Top"></a>
@@ -153,18 +135,20 @@ Please feel free to contact me, even if you just want to talk widows!           
 			<div class="motion" id="motion"><h2>Motion & Gifs</h2></div>
 
 	<div class="grid motion-buckets">
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-					<a class="hover" href="{{site.baseurl}}/pieces/captrap/"><div class="cap-trap"></div></a>
+			<div class="cap-trap unit unit-xs-1 unit-s-1 unit-m-1 island">
+                <h3 class="brand-family-blue">- Chalk It Out -</h3>
+					<iframe class="embed-item" src="https://player.vimeo.com/video/125396704" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/chalk/"> <div class="bucket-2"></div> </a>
+			<div class="cap-trap unit unit-xs-1 unit-s-1 unit-m-1 island">
+                <h3 class="brand-family-blue">- Cap Trap -</h3>
+                <iframe class="embed-item" src="https://player.vimeo.com/video/146465411" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 			</div>
-			 <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/rocks/"><div class="bucket-3"></div> </a>
-			</div>
-			<div class="unit unit-xs-1 unit-s-1 unit-m-1-2 island">
-				 <a class="hover" href="{{site.baseurl}}/pieces/starwars/">  <div class="bucket-4"></div> </a>
-			</div>
+			 <div class="cap-trap unit unit-xs-1 unit-s-1 unit-m-1 island">
+                <h3 class="brand-family-blue">- Cousteau and his Cronies -</h3>
+					<iframe class="embed-item" src="https://player.vimeo.com/video/119069824" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
+			<div class="cap-trap unit unit-xs-1 unit-s-1 unit-m-1 island">
+                <h3 class="brand-family-blue">- Red Five Standing By -</h3>
+					<iframe class="embed-item" src="https://player.vimeo.com/video/146469204" width="500" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
 			<div class="rtt">
                         <a class="rtt-hover"href="#top"><img src="images/arrow.svg" alt="Return to Top"></a>
     </div>

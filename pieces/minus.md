@@ -12,11 +12,11 @@ meta: Branding package for local start up.
 
 solution: Minus One Gun
 
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
+meta: To create a logo and wordmark for local start up. The project was for a local gun buy back program run by the Ottawa Police department. The Minus One Gun was designed to be a scalable brand that would work in any city it grew into. The request from the client was that the company be professional while at the same time have the ability to grow in popularity for it's additional products like t-shirts, hats, and other apparel.  
 
 type: minus
 
-swatches: swatches-minus.jpg
+swatches: swatches-minus.svg
 
 alt-swatches: Minus One Gun Swatches
 

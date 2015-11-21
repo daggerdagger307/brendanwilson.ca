@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: cirque-temp.jpg
+banner: cirque-banner.svg
 
 alt-banner: Cirque Du Soleil annual report
 
@@ -16,7 +16,7 @@ meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel 
 
 type: cirque
 
-swatches: swatches-cirque.jpg
+swatches: swatches-cirque.svg
 
 alt-swatches: Cirque Du Soleil swatches
 

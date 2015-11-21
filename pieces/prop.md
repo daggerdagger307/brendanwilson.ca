@@ -12,11 +12,11 @@ meta: Branding and Identity for local clothing line.
 
 solution: Propaganda Fist 
 
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
+meta: To create a logo and graphic theme for local clothing line. This project was a designers dream. With a name like Propaganda Fitness so many things come to mind immediately, obviously WW2 propaganda posters was one of them. After sitting down with the client over coffee and discussing their likes and dislikes I went off to make something special. First after extensive research a colour pallet was chosen to work from right from the beginning. The theme of propaganda poster was a juice one and each of the designs uses a hint of WW2 poster art to keep the piece inline with the clients vision. The main logo uses a combination of the letter P, f and the image of a fist to make the fist logo. In the end the client was very happy and they continue to be one of my favourite clients.
 
 type: prop
 
-swatches: swatches-prop.jpg
+swatches: swatches-prop.svg
 
 alt-swatches: Propaganda Swatches
 

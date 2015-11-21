@@ -12,11 +12,11 @@ meta: Branding package for local tailor.
 
 solution: Mario Master Tailor
 
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
+meta: To create a new identity for a local business or service that is need of a branding face lift. Extensive research will be done on all aspects of the business including current logo, website, stationary, signage and any other aspects of the brand that will use the new identity. Sketching will be the backbone of this assignment and will ultimately be the means to which you discover the right direction to take their new branding. A logo and wordmark must be created to both work together and alone on a number of different applications.
 
 type: mario
 
-swatches: swatches-mario.jpg
+swatches: swatches-mario.svg
 
 alt-swatches: Mario swatches
 

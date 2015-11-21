@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: mary-temp.jpg
+banner: mary-banner.svg
 
 alt-banner: Mary illustration
 
@@ -12,11 +12,11 @@ meta: Hashtag Immaculate
 
 solution: Then and Now
 
-meta: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio eget elit hendrerit consequat at sit amet arcu. Morbi iaculis risus quis ex efficitur congue. Pellentesque posuere sagittis nibh a sagittis. Morbi efficitur elementum urna, quis ultrices nibh imperdiet id. Maecenas facilisis purus feugiat turpis convallis, molestie efficitur tellus posuere. Proin gravida dapibus enim, vitae vestibulum ligula. Suspendisse quis mauris ex. Etiam feugiat, metus eu luctus malesuada, risus felis dictum lorem, in sollicitudin odio ipsum ac enim. Integer tellus dolor, laoreet sed lacus vitae, lobortis pharetra eros. Curabitur consectetur odio at posuere egestas. Integer maximus nulla tortor.
+meta: This piece is the main piece of a three part series I did for a local clothing brand called Dagger Dagger. Based on the thought of what would happen if biblical stories occured today, the three main images depict famous stories or images from the bible with a modern twist. 
 
 type: mary
 
-swatches: swatches-mary.jpg
+swatches: swatches-mary.svg
 
 alt-swatches: Mary swatches
 
@@ -24,12 +24,12 @@ image-1: mary-poster.jpg
 
 alt-main-artwork: Mary illustration
 
-image-2: mary-2.jpg
+image-2: cain-abel.jpg
 
-alt-tee-1: Mary t-shirt print
+alt-tee-1: Cain Vs. Abel t-shirt print
 
-image-3: mary-3.jpg
+image-3: choose.jpg
 
-alt-tee-2: Mary t-shirt print
+alt-tee-2: Choose Wisley t-shirt print
 
 ---
