@@ -809,7 +809,7 @@ h2 {
     
 .embed-item {
     width: 100%;
-    height: 500px;
+    height: 300px;
 }    
 
 .branding {
@@ -853,7 +853,7 @@ h2 {
 }
     
 .steam-whistle {
-	background-image: url(../images/steam-cover.svg);
+	background-image: url(../images/steam-cover.jpg);
 }
    
 .propaganda {
@@ -865,7 +865,7 @@ h2 {
 }
 
 .cirque {
- 	background-image: url(../images/cirque-cover.svg);	
+ 	background-image: url(../images/cirque-cover.jpg);	
 }
 
 .frankenstein {
@@ -873,7 +873,7 @@ h2 {
 }
 
 .immaculate {
- 	background-image: url(../images/mary-cover.svg);	
+ 	background-image: url(../images/mary-cover.jpg);	
 }    
     
 .parallax-group {
