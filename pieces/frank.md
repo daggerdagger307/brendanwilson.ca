@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: frank-temp.jpg
+banner: frank-banner.jpg
 
 alt-banner: Frankenstein illustration
 

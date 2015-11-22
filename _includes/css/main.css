@@ -833,7 +833,7 @@ h2 {
 }
 
 .hover-lexar :hover {
-	background-image: url(../images/mary-cover.svg);
+	background-image: url(../images/lexar-bucket.jpg);
 }
 
 .hover-cirque :hover {
@@ -841,7 +841,7 @@ h2 {
 }
 
 .hover-frank :hover {
-	background-image: url(../images/mary-cover.svg);
+	background-image: url(../images/frankenstein.jpg);
 }
 
 .hover-mary :hover {
@@ -857,7 +857,7 @@ h2 {
 }
 
 .lexar {
-	background-image: url(../images/lexar-bucket.jpg);	
+	background-image: url(../images/lexar-cover.jpg);	
 }
 
 .cirque {
@@ -865,7 +865,7 @@ h2 {
 }
 
 .frankenstein {
-	background-image: url(../images/frankenstein.jpg);
+	background-image: url(../images/frank-cover.jpg);
 }
 
 .immaculate {

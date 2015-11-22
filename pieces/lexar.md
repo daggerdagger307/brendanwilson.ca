@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: lexar-temp.jpg
+banner: lexar-banner.jpg
 
 alt-banner: Lexar display
 
