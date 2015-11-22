@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: cirque-banner.svg
+banner: cirque-banner.jpg
 
 alt-banner: Cirque Du Soleil annual report
 

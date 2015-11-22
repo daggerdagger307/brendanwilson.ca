@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: mary-banner.svg
+banner: mary-banner.jpg
 
 alt-banner: Mary illustration
 

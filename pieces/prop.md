@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: gym-temp.jpg
+banner: gym-banner.jpg
 
 alt-banner: Propaganda Product Photo
 

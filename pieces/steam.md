@@ -2,7 +2,7 @@
 
 layout: pieces
 
-banner: steam-banner.svg
+banner: steam-banner.jpg
 
 alt-banner: Steam Whistle t-shirt design.
 
