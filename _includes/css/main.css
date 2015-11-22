@@ -204,15 +204,14 @@ img {
     background-repeat: no-repeat;
     background-position: center;
 	
-}*/
-
 .lettermark {
 	position: absolute;
 	width: 8em;
 	z-index: 3000;
     top: 5.7em;
- 
 }
+
+}*/
 
 h2 {
 	margin: 0;
@@ -230,7 +229,7 @@ h2 {
     top: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2000;
+    z-index: 4000;
     width: 0;
 }
 
@@ -277,6 +276,18 @@ h2 {
 	top: 3em;
 }
 
+.hello {
+    color: #fff;
+    font-size: 2em;
+    margin-top: 6em;
+
+    -webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
 .about {
     background-color: #fff;
     background-size: 100%;
@@ -306,7 +317,7 @@ h2 {
     top: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 2000;
+    z-index: 4000;
     width: 0;
     overflow: hidden;
 }
@@ -812,6 +823,11 @@ h2 {
 
 
 @media only screen and (min-width: 38em) {
+    
+.hello {
+    font-size: 4em;
+    margin-top: 3em;
+}
     
 .embed-item {
     width: 100%;
