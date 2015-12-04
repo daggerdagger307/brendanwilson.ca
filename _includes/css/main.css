@@ -191,7 +191,7 @@ h2 {
     filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
 }
 
-/*h3 {
+h3 {
     padding: 0;
     color: #ffffff;
     z-index: 30000;
@@ -202,7 +202,7 @@ h2 {
     -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
     -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
     filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-}*/
+}
 
 .align-left {
     text-align: left;
