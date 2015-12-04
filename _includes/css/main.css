@@ -21,10 +21,11 @@ html {
 
 body {
     margin: 0;
+    background-color: #f1eeee;
 }
 
 main {
-    background-color: white;
+    background-color: #f1eeee;
     padding-bottom: 2em;
 } 
 
@@ -58,30 +59,22 @@ main {
     width: 2em;
 	height: auto;
     margin: 0 auto;
+    z-index: 30000;
+    overflow: visible;
+    
+    -webkit-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
 }
-
-.rtt-hover :hover  {
-  transform: scale(1.5);
-	-moz-transition: all 450ms ease-in;
-  -o-transition: all 450ms ease-in;
-  -webkit-transition: all 450ms ease-in;
-  transition: all 450ms ease-in;
-	z-index: 100;
-	
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}
-
 
 header {
 	position: relative;
 	z-index: 44;
 	text-align: center;
 	padding: 3em 0 1em;
-	background-color: #acbcbb;
+	background-color: #e2dfdf;
 }
 
 .nav {
@@ -121,7 +114,7 @@ header {
 }
 
 .nav a:hover {
-	color: #08273d;
+	color: black;
     -moz-transition: all 350ms ease-in-out;
     -o-transition: all 350ms ease-in-out;
     -webkit-transition: all 350ms ease-in-out;
@@ -151,6 +144,25 @@ img {
 	width: 100%;
 }
 
+.video {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: #f1eeee;
+}
+
+.video-item {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.video-16by9 {
+padding-top: 56.25%;
+}
+
 
 .parallax-group {
     overflow: hidden;
@@ -166,56 +178,30 @@ img {
     background-position: center;
 }
 
-/*.back {
-    padding-top: 180%;
-    top: -10em;
-    margin: 0 auto;
-	position: relative;
-	display: block;
-	text-align: center;
-	background-image: url(../images/parliament_mobile-01.png);
-	background-size: contain; 
-    background-repeat: no-repeat;
-    background-position: center;
-}*/
-
-/*.front {
-    padding-top: 100%;
-    margin-top: -45em;
-	position: relative;
-	display: block;
-	text-align: center;
-	background-image: url(../images/Second_Building-01-01.png);
-	background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.white {
-    padding-top: 100%;
-    margin-top: -35em;
-	position: relative;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	background-image: url(../images/Second_Building-01-01.png);
-	background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-	
-.lettermark {
-	position: absolute;
-	width: 8em;
-	z-index: 3000;
-    top: 5.7em;
-}
-
-}*/
-
 h2 {
-	margin: 0;
-    color: #08273c;
+    padding: 0;
+    color: #ffffff;
+    z-index: 30000;
+    overflow: visible;
+    
+    -webkit-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+}
+
+h3 {
+    padding: 0;
+    color: #ffffff;
+    z-index: 30000;
+    overflow: visible;
+    
+    -webkit-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
 }
 
 .align-left {
@@ -440,64 +426,58 @@ h2 {
 	position: relative;
 	z-index: 22;
 	text-align: center;
-    margin-top: -10em;
-	
 }
 
 .brand-buckets {
-	background-color: white;
+	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
-	margin-bottom: 1em;
 }
 
 .packaging {
 	position: relative;
-	background-color: white;
+	background-color: #f1eeee;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .pack-buckets {
-	background-color: white;
+	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
-	margin-bottom: 1em;
 }
 
 .artwork {
 	position: relative;
-	background-color: white;
+	background-color: #f1eeee;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .art-buckets {
-	background-color: white;
+	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
-	margin-bottom: 1em;
 }
 
 .motion {
 	position: relative;
-	background-color: white;
+	background-color: #f1eeee;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .motion-buckets {
-	background-color: white;
+	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
-	margin-bottom: 1em;
 }
 
 
@@ -634,14 +614,18 @@ h2 {
 
 .steam-whistle {
 	background-image: url(../images/steam-whistle-bucket.jpg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
-	margin: auto 0;
 	text-align: center;
-	text-decoration-line: none;	
+
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
 }
    
 .propaganda {
@@ -651,9 +635,13 @@ h2 {
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
-	margin: auto 0;
 	text-align: center;
-	text-decoration-line: none;	
+    
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
 }
 
 .lexar {
@@ -663,9 +651,13 @@ h2 {
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
-	margin: auto 0;
 	text-align: center;
-	text-decoration-line: none;	
+    
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
 }
 
 .cirque {
@@ -675,21 +667,29 @@ h2 {
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
-	margin: auto 0;
 	text-align: center;
-	text-decoration-line: none;	
+    
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
 }
 
 .frankenstein {
 	background-image: url(../images/frankenstein.jpg);
-	background-size: contain;
+    background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
-	margin: auto 0;
 	text-align: center;
-	text-decoration-line: none;	
+    
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
 }
 
 .immaculate {
@@ -699,9 +699,13 @@ h2 {
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
-	margin: auto 0;
 	text-align: center;
-	text-decoration-line: none;	
+    
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
 }
 
 .embed-item {
@@ -833,10 +837,6 @@ h2 {
     width: 100%;
     height: 300px;
 }    
-
-.branding {
-    margin-top: -10em;
-}	
     
 .title {
     top: 25%;
@@ -848,6 +848,7 @@ h2 {
     
 .hover-steam :hover {
 	background-image: url(../images/steam-whistle-bucket.jpg);
+    margin: 0 auto;
 }
 
 .hover-prop :hover {
@@ -871,11 +872,11 @@ h2 {
 }
     
 .steam-whistle {
-	background-image: url(../images/steam-cover.jpg);
+	background-image: url(../images/cover-line.png), url(../images/steam-gem.png), url(../images/cover-square.png);
 }
    
 .propaganda {
- 	background-image: url(../images/gym.jpg);
+ 	background-image: url(../images/cover-line.png), url(../images/prop-gem.png), url(../images/cover-square.png);
 }
 
 .lexar {
