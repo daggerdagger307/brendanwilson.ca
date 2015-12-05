@@ -437,7 +437,6 @@ h3 {
 
 .packaging {
 	position: relative;
-	background-color: #f1eeee;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
@@ -480,22 +479,40 @@ h3 {
 	padding: 0;
 }
 
-
-.hover-steam :hover {
-    display: block;
-    transform: scale(1.1);
-	-moz-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    -webkit-transition: all 250ms ease-in-out;
-    transition: all 350ms ease-out;
-	z-index: 100;
-
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+.steam {
+    transition: background-image 1s ease-in-out;
+  background-image:url("/images/Cirques.jpg");
 }
+
+
+/*.hover-steam :hover {
+    display: block;
+	-moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all .5s ease-in-out;
+	z-index: 1000;
+}
+
+.cf {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cf img {
+    position: absolute;
+    left: 0;
+    -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+.cf img.top:hover {
+    opacity: 0;
+}*/
 
 .hover-prop :hover {
     display: block;
@@ -617,8 +634,6 @@ h3 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
-	position: relative;
-	z-index: 20;
 	text-align: center;
 
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
@@ -736,29 +751,6 @@ h3 {
 	text-decoration-line: none;	
 }
 
-.bucket-3 {
- 	background-image: url(../images/mario-bucket.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding-top: 100%;
-	position: relative;
-	z-index: 20;
-	margin: auto 0;
-	text-align: center;
-	text-decoration-line: none;	
-}
-.bucket-4 {
- 	background-image: url(../images/minus-one-bucket.jpg);
-	background-size: contain;
-	background-repeat: no-repeat;
-	padding-top: 100%;
-	position: relative;
-	z-index: 20;
-	margin: auto 0;
-	text-align: center;
-	text-decoration-line: none;	
-}
-
 .footer {
     background-color: #acbcbb;
     background-size: 100%;
@@ -845,10 +837,36 @@ h3 {
 }
 
 @media only screen and (min-width: 60em) {
+    @keyframes float{
+        0%{ top: 0;}
+        100%{top: .5em;}
+    }
+    .test-move {
+        display: block;
+        position: relative;
     
-.hover-steam :hover {
-	background-image: url(../images/steam-whistle-bucket.jpg);
-    margin: 0 auto;
+    }
+    
+    .test-move img {
+        position: absolute;
+    
+    }
+    
+    .test-move .float {
+        animation: float 1.5s ease-out infinite alternate;
+    }
+            
+.hover-glitch {
+    opacity: 0;
+	-moz-transition: all 2s ease-in;
+    -o-transition: all 2s ease-in;
+    -webkit-transition: all 2s ease-in;
+    transition: all 2s ease-in;
+}
+    
+.hover-glitch :hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 .hover-prop :hover {
@@ -871,10 +889,18 @@ h3 {
 	background-image: url(../images/immaculate-bucket.jpg);
 }
     
-.steam-whistle {
-	background-image: url(../images/cover-line.png), url(../images/steam-gem.png), url(../images/cover-square.png);
+.hover-steam :hover {
+    opacity: 0;
 }
-   
+    
+.hover-steam {
+    opacity: 1;
+    -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+}
+
 .propaganda {
  	background-image: url(../images/cover-line.png), url(../images/prop-gem.png), url(../images/cover-square.png);
 }
