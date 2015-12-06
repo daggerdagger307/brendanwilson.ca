@@ -429,7 +429,6 @@ h3 {
 }
 
 .brand-buckets {
-	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
@@ -443,7 +442,6 @@ h3 {
 }
 
 .pack-buckets {
-	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
@@ -451,14 +449,12 @@ h3 {
 
 .artwork {
 	position: relative;
-	background-color: #f1eeee;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .art-buckets {
-	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
@@ -466,97 +462,15 @@ h3 {
 
 .motion {
 	position: relative;
-	background-color: #f1eeee;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .motion-buckets {
-	background-color: #f1eeee;
 	position: relative;
 	z-index: 22;
 	padding: 0;
-}
-
-/*.hover-prop :hover {
-    display: block;
-    transform: scale(1.1);
-	-moz-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    -webkit-transition: all 250ms ease-in-out;
-    transition: all 350ms ease-out;
-	z-index: 100;
-
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}*/
-
-.hover-lexar :hover {
-    display: block;
-    transform: scale(1.1);
-	-moz-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    -webkit-transition: all 250ms ease-in-out;
-    transition: all 350ms ease-out;
-	z-index: 100;
-
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}
-
-.hover-cirque :hover {
-    display: block;
-    transform: scale(1.1);
-	-moz-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    -webkit-transition: all 250ms ease-in-out;
-    transition: all 350ms ease-out;
-	z-index: 100;
-
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}
-
-.hover-frank :hover {
-    display: block;
-    transform: scale(1.1);
-	-moz-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    -webkit-transition: all 250ms ease-in-out;
-    transition: all 350ms ease-out;
-	z-index: 100;
-
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}
-
-.hover-mary :hover {
-    display: block;
-    transform: scale(1.1);
-	-moz-transition: all 250ms ease-in-out;
-    -o-transition: all 250ms ease-in-out;
-    -webkit-transition: all 250ms ease-in-out;
-    transition: all 350ms ease-out;
-	z-index: 100;
-
-	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
 }
 
 .billboard {
@@ -631,11 +545,9 @@ h3 {
 
 .lexar {
 	background-image: url(../images/lexar-bucket.jpg);
-	background-size: contain;
+    background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
-	position: relative;
-	z-index: 20;
 	text-align: center;
     
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
@@ -647,11 +559,9 @@ h3 {
 
 .cirque {
  	background-image: url(../images/cirque-flat.jpg);
-	background-size: contain;
+    background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
-	position: relative;
-	z-index: 20;
 	text-align: center;
     
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
@@ -820,7 +730,7 @@ h3 {
         display: block;
         position: relative;
         
-        -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
     -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
     -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
     -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
@@ -831,10 +741,16 @@ h3 {
         position: absolute;
     
     }
-    
+ 
     .test-move .float {
         animation: float 1.5s ease-out infinite alternate;
     }
+    
+    .top {
+        position: absolute;
+        z-index: 50000;
+    }
+
             
 #ul1 a #li1 {
     opacity: 0;
@@ -851,23 +767,26 @@ h3 {
 } 
         
 #ul1 a #li2 {
-    opacity: 1;
-    -webkit-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    position: relative; 
+        width: 500px;
+        height: 500px;
+        background-image: url(../images/steam-sprite.png);
+        background-repeat: no-repeat;
+        position: absolute;
 }
-
-.top {
-    position: relative;
-    z-index: 4000;
+   
+#ul1:hover #li2 {
+        -webkit-animation: play .8s steps(12) infinite;
+        -moz-animation: play .8s steps(12) infinite;
+        -ms-animation: play .8s steps(12) infinite;;
+        -o-animation: play .8s steps(12) infinite;
+        animation: play .8s steps(12) infinite;
 }
     
-#ul1:hover #li2 {
-    opacity: .3;
-    transform: scale(1.1);
-}
+     @Keyframes play {
+        from {background-position: 0 0;}
+        to {background-position: -5967px 0;}
+        /*100% {background-position: -5967px;}*/
+    }
     
 .steam-whistle {
     display: none;
@@ -888,39 +807,17 @@ h3 {
       display: none;
     
     }
-
-
-.hover-lexar :hover {
-	background-image: url(../images/lexar-bucket.jpg);
-}
-
-.hover-cirque :hover {
-	background-image: url(../images/cirque-flat.jpg);
-}
-
-.hover-frank :hover {
-	background-image: url(../images/frankenstein.jpg);
-}
-
-.hover-mary :hover {
-	background-image: url(../images/immaculate-bucket.jpg);
-}
     
-.lexar {
-	background-image: url(../images/lexar-cover.jpg);	
-}
-
-.cirque {
- 	background-image: url(../images/cirque-cover.jpg);	
-}
-
 .frankenstein {
-	background-image: url(../images/frank-cover.jpg);
-}
-
+    display: none;
+    
+    }
+    
 .immaculate {
- 	background-image: url(../images/mary-cover.jpg);	
-}    
+      display: none;
+    
+    }
+    
     
 .parallax-group {
     overflow: hidden;
