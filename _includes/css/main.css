@@ -815,9 +815,26 @@ h3 {
     
 .immaculate {
       display: none;
-    
+        
     }
     
+.rocks {
+      display: none;
+    }
+    
+.chalk {
+      display: none;
+    } 
+    
+.boxed {
+     display: none;
+        
+    } 
+.eleven  {
+    display: none;
+        
+    } 
+
     
 .parallax-group {
     overflow: hidden;
@@ -875,6 +892,7 @@ h2 {
 
 .motion-buckets {
 	padding: 0 10%;
+    margin-top: -5%;
 }
 
 }
