@@ -479,42 +479,7 @@ h3 {
 	padding: 0;
 }
 
-.steam {
-    transition: background-image 1s ease-in-out;
-  background-image:url("/images/Cirques.jpg");
-}
-
-
-/*.hover-steam :hover {
-    display: block;
-	-moz-transition: all 1s ease-in-out;
-    -o-transition: all 1s ease-in-out;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all .5s ease-in-out;
-	z-index: 1000;
-}
-
-.cf {
-    position: absolute;
-    height: 500px;
-    width: 500px;
-    margin: 0 auto;
-}
-
-.cf img {
-    position: absolute;
-    left: 0;
-    -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-}
-
-.cf img.top:hover {
-    opacity: 0;
-}*/
-
-.hover-prop :hover {
+/*.hover-prop :hover {
     display: block;
     transform: scale(1.1);
 	-moz-transition: all 250ms ease-in-out;
@@ -528,7 +493,7 @@ h3 {
     -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
     filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
-}
+}*/
 
 .hover-lexar :hover {
     display: block;
@@ -629,11 +594,18 @@ h3 {
     margin: 0 auto;
 }
 
+.test-move {
+    display: none;
+
+}
+
 .steam-whistle {
 	background-image: url(../images/steam-whistle-bucket.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
+    position: relative;
+	z-index: 200;
 	text-align: center;
 
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
@@ -648,8 +620,6 @@ h3 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
-	position: relative;
-	z-index: 20;
 	text-align: center;
     
     -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
@@ -837,6 +807,11 @@ h3 {
 }
 
 @media only screen and (min-width: 60em) {
+    .float {
+        position: relative;
+        z-index: 3000;
+    }
+    
     @keyframes float{
         0%{ top: 0;}
         100%{top: .5em;}
@@ -844,7 +819,12 @@ h3 {
     .test-move {
         display: block;
         position: relative;
-    
+        
+        -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
     }
     
     .test-move img {
@@ -856,22 +836,59 @@ h3 {
         animation: float 1.5s ease-out infinite alternate;
     }
             
-.hover-glitch {
+#ul1 a #li1 {
     opacity: 0;
-	-moz-transition: all 2s ease-in;
-    -o-transition: all 2s ease-in;
-    -webkit-transition: all 2s ease-in;
-    transition: all 2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    position: relative;
 }
     
-.hover-glitch :hover {
+#ul1:hover #li1 {
     opacity: 1;
     transform: scale(1.1);
+} 
+        
+#ul1 a #li2 {
+    opacity: 1;
+    -webkit-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    position: relative; 
 }
 
-.hover-prop :hover {
-	background-image: url(../images/propaganda-bucket.jpg);
+.top {
+    position: relative;
+    z-index: 4000;
 }
+    
+#ul1:hover #li2 {
+    opacity: .3;
+    transform: scale(1.1);
+}
+    
+.steam-whistle {
+    display: none;
+    
+    }
+    
+.propaganda {
+      display: none;
+    
+    }
+    
+.lexar {
+    display: none;
+    
+    }
+    
+.cirque {
+      display: none;
+    
+    }
+
 
 .hover-lexar :hover {
 	background-image: url(../images/lexar-bucket.jpg);
@@ -889,22 +906,6 @@ h3 {
 	background-image: url(../images/immaculate-bucket.jpg);
 }
     
-.hover-steam :hover {
-    opacity: 0;
-}
-    
-.hover-steam {
-    opacity: 1;
-    -webkit-transition: opacity 2s ease-in-out;
-  -moz-transition: opacity 2s ease-in-out;
-  -o-transition: opacity 2s ease-in-out;
-  transition: opacity 2s ease-in-out;
-}
-
-.propaganda {
- 	background-image: url(../images/cover-line.png), url(../images/prop-gem.png), url(../images/cover-square.png);
-}
-
 .lexar {
 	background-image: url(../images/lexar-cover.jpg);	
 }
