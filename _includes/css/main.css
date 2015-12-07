@@ -1,3 +1,4 @@
+
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -21,11 +22,10 @@ html {
 
 body {
     margin: 0;
-    background-color: #f1eeee;
 }
 
 main {
-    background-color: #f1eeee;
+    background-color: white;
     padding-bottom: 2em;
 } 
 
@@ -59,22 +59,30 @@ main {
     width: 2em;
 	height: auto;
     margin: 0 auto;
-    z-index: 30000;
-    overflow: visible;
-    
-    -webkit-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
 }
+
+.rtt-hover :hover  {
+  transform: scale(1.5);
+	-moz-transition: all 450ms ease-in;
+  -o-transition: all 450ms ease-in;
+  -webkit-transition: all 450ms ease-in;
+  transition: all 450ms ease-in;
+	z-index: 100;
+	
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
 
 header {
 	position: relative;
 	z-index: 44;
 	text-align: center;
 	padding: 3em 0 1em;
-	background-color: #e2dfdf;
+	background-color: #acbcbb;
 }
 
 .nav {
@@ -114,7 +122,7 @@ header {
 }
 
 .nav a:hover {
-	color: black;
+	color: #08273d;
     -moz-transition: all 350ms ease-in-out;
     -o-transition: all 350ms ease-in-out;
     -webkit-transition: all 350ms ease-in-out;
@@ -144,25 +152,6 @@ img {
 	width: 100%;
 }
 
-.video {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    background-color: #f1eeee;
-}
-
-.video-item {
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-}
-
-.video-16by9 {
-padding-top: 56.25%;
-}
-
 
 .parallax-group {
     overflow: hidden;
@@ -172,36 +161,15 @@ padding-top: 56.25%;
 	position: relative;
 	display: block;
 	text-align: center;
-	background-image: url(../images/parliament_building_Mobile.svg);
+	background-image: url(../images/parliament_building_mobile.svg);
 	background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
 }
 
 h2 {
-    padding: 0;
-    color: #ffffff;
-    z-index: 30000;
-    overflow: visible;
-    
-    -webkit-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-}
-
-h3 {
-    padding: 0;
-    color: #ffffff;
-    z-index: 30000;
-    overflow: visible;
-    
-    -webkit-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -moz-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -ms-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    -o-filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
-    filter: drop-shadow(-10px 10px 15px rgba(0,0,0,.3));
+	margin: 0;
+    color: #08273c;
 }
 
 .align-left {
@@ -426,51 +394,161 @@ h3 {
 	position: relative;
 	z-index: 22;
 	text-align: center;
+    margin-top: -10em;
+	
 }
 
 .brand-buckets {
+	background-color: white;
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
 }
 
 .packaging {
 	position: relative;
+	background-color: white;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .pack-buckets {
+	background-color: white;
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
 }
 
 .artwork {
 	position: relative;
+	background-color: white;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .art-buckets {
+	background-color: white;
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
 }
 
 .motion {
 	position: relative;
+	background-color: white;
 	z-index: 22;
 	text-align: center;
 	width: 100%;
 }
 
 .motion-buckets {
+	background-color: white;
 	position: relative;
 	z-index: 22;
 	padding: 0;
+	margin-bottom: 1em;
+}
+
+
+.hover-steam :hover {
+    display: block;
+    transform: scale(1.1);
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 350ms ease-out;
+	z-index: 100;
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+.hover-prop :hover {
+    display: block;
+    transform: scale(1.1);
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 350ms ease-out;
+	z-index: 100;
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+.hover-lexar :hover {
+    display: block;
+    transform: scale(1.1);
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 350ms ease-out;
+	z-index: 100;
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+.hover-cirque :hover {
+    display: block;
+    transform: scale(1.1);
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 350ms ease-out;
+	z-index: 100;
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+.hover-frank :hover {
+    display: block;
+    transform: scale(1.1);
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 350ms ease-out;
+	z-index: 100;
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+}
+
+.hover-mary :hover {
+    display: block;
+    transform: scale(1.1);
+	-moz-transition: all 250ms ease-in-out;
+    -o-transition: all 250ms ease-in-out;
+    -webkit-transition: all 250ms ease-in-out;
+    transition: all 350ms ease-out;
+	z-index: 100;
+
+	-webkit-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -moz-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -ms-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    -o-filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
+    filter: drop-shadow(-10px 10px 6px rgba(0,0,0,.3));
 }
 
 .billboard {
@@ -508,25 +586,16 @@ h3 {
     margin: 0 auto;
 }
 
-.test-move {
-    display: none;
-
-}
-
 .steam-whistle {
 	background-image: url(../images/steam-whistle-bucket.jpg);
-	background-size: contain;
+	background-size: cover;
 	background-repeat: no-repeat;
 	padding-top: 100%;
-    position: relative;
-	z-index: 200;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
 	text-align: center;
-
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+	text-decoration-line: none;	
 }
    
 .propaganda {
@@ -534,57 +603,47 @@ h3 {
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
 	text-align: center;
-    
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+	text-decoration-line: none;	
 }
 
 .lexar {
 	background-image: url(../images/lexar-bucket.jpg);
-    background-size: contain;
-	background-repeat: no-repeat;
-	padding-top: 100%;
-	text-align: center;
-    
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-}
-
-.cirque {
- 	background-image: url(../images/cirque-flat.jpg);
-    background-size: contain;
-	background-repeat: no-repeat;
-	padding-top: 100%;
-	text-align: center;
-    
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-}
-
-.frankenstein {
-	background-image: url(../images/frankenstein.jpg);
-    background-size: contain;
+	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
+	margin: auto 0;
 	text-align: center;
-    
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+	text-decoration-line: none;	
+}
+
+.cirque {
+ 	background-image: url(../images/cirque-flat.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.frankenstein {
+	background-image: url(../images/frankenstein.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
 }
 
 .immaculate {
@@ -594,13 +653,9 @@ h3 {
 	padding-top: 100%;
 	position: relative;
 	z-index: 20;
+	margin: auto 0;
 	text-align: center;
-    
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
+	text-decoration-line: none;	
 }
 
 .embed-item {
@@ -621,6 +676,29 @@ h3 {
     
 .bucket-2 {
  	background-image: url(../images/propaganda-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+
+.bucket-3 {
+ 	background-image: url(../images/mario-bucket.jpg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding-top: 100%;
+	position: relative;
+	z-index: 20;
+	margin: auto 0;
+	text-align: center;
+	text-decoration-line: none;	
+}
+.bucket-4 {
+ 	background-image: url(../images/minus-one-bucket.jpg);
 	background-size: contain;
 	background-repeat: no-repeat;
 	padding-top: 100%;
@@ -709,6 +787,10 @@ h3 {
     width: 100%;
     height: 300px;
 }    
+
+.branding {
+    margin-top: -10em;
+}	
     
 .title {
     top: 25%;
@@ -717,124 +799,54 @@ h3 {
 }
 
 @media only screen and (min-width: 60em) {
-    .float {
-        position: relative;
-        z-index: 3000;
-    }
     
-    @keyframes float{
-        0%{ top: 0;}
-        100%{top: .5em;}
-    }
-    .test-move {
-        display: block;
-        position: relative;
-        
-    -webkit-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -moz-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -ms-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    -o-filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    filter: drop-shadow(-10px 10px 20px rgba(0,0,0,.1));
-    }
-    
-    .test-move img {
-        position: absolute;
-    
-    }
- 
-    .test-move .float {
-        animation: float 1.5s ease-out infinite alternate;
-    }
-    
-    .top {
-        position: absolute;
-        z-index: 50000;
-    }
+.hover-steam :hover {
+	background-image: url(../images/steam-whistle-bucket.jpg);
+}
 
-            
-#ul1 a #li1 {
-    opacity: 0;
-    -webkit-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    position: relative;
+.hover-prop :hover {
+	background-image: url(../images/propaganda-bucket.jpg);
 }
-    
-#ul1:hover #li1 {
-    opacity: 1;
-    transform: scale(1.1);
-} 
-        
-#ul1 a #li2 {
-        width: 500px;
-        height: 500px;
-        background-image: url(../images/steam-sprite.png);
-        background-repeat: no-repeat;
-        position: absolute;
+
+.hover-lexar :hover {
+	background-image: url(../images/lexar-bucket.jpg);
 }
-   
-#ul1:hover #li2 {
-        -webkit-animation: play .8s steps(12) infinite;
-        -moz-animation: play .8s steps(12) infinite;
-        -ms-animation: play .8s steps(12) infinite;;
-        -o-animation: play .8s steps(12) infinite;
-        animation: play .8s steps(12) infinite;
+
+.hover-cirque :hover {
+	background-image: url(../images/cirque-flat.jpg);
 }
-    
-     @Keyframes play {
-        from {background-position: 0 0;}
-        to {background-position: -5967px 0;}
-        /*100% {background-position: -5967px;}*/
-    }
+
+.hover-frank :hover {
+	background-image: url(../images/frankenstein.jpg);
+}
+
+.hover-mary :hover {
+	background-image: url(../images/immaculate-bucket.jpg);
+}
     
 .steam-whistle {
-    display: none;
-    
-    }
-    
+	background-image: url(../images/steam-cover.jpg);
+}
+   
 .propaganda {
-      display: none;
-    
-    }
-    
-.lexar {
-    display: none;
-    
-    }
-    
-.cirque {
-      display: none;
-    
-    }
-    
-.frankenstein {
-    display: none;
-    
-    }
-    
-.immaculate {
-      display: none;
-        
-    }
-    
-.rocks {
-      display: none;
-    }
-    
-.chalk {
-      display: none;
-    } 
-    
-.boxed {
-     display: none;
-        
-    } 
-.eleven  {
-    display: none;
-        
-    } 
+ 	background-image: url(../images/gym.jpg);
+}
 
+.lexar {
+	background-image: url(../images/lexar-cover.jpg);	
+}
+
+.cirque {
+ 	background-image: url(../images/cirque-cover.jpg);	
+}
+
+.frankenstein {
+	background-image: url(../images/frank-cover.jpg);
+}
+
+.immaculate {
+ 	background-image: url(../images/mary-cover.jpg);	
+}    
     
 .parallax-group {
     overflow: hidden;
@@ -892,7 +904,6 @@ h2 {
 
 .motion-buckets {
 	padding: 0 10%;
-    margin-top: -5%;
 }
 
 }
@@ -924,7 +935,6 @@ h2 {
 }
 	
 }
-
 
 
 
